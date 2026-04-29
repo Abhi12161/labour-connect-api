@@ -1,0 +1,23 @@
+{
+  "name": "mongo-sync-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "local": "node scripts/start.js .env.local",
+    "atlas": "node scripts/start.js .env.atlas",
+    "backup": "node scripts/dump.js",
+    "restore": "node scripts/restore.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.0"
+  }
+}
