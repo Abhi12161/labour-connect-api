@@ -1,27 +1,27 @@
 const express = require("express");
+const customerAuthController = require("../controllers/customerAuthController");
+const customerProfileController = require("../controllers/customerProfileController");
+const authenticateCustomer = require("../middlewares/authenticateCustomer");
+const validateRequest = require("../middlewares/validateRequest");
+const {
+  signupValidator,
+  loginValidator,
+  updateProfileValidator,
+} = require("../validators/customerValidators");
+
 const router = express.Router();
-const Customer = require("../models/Customer");
 
-// Signup
-router.post("/signup", async (req, res) => {
-  const { name, mobile, address } = req.body;
+router.post("/signup", signupValidator, validateRequest, customerAuthController.signup);
+router.post("/login", loginValidator, validateRequest, customerAuthController.login);
 
-  const existing = await Customer.findOne({ mobile });
-  if (existing) return res.status(400).json({ msg: "Already registered" });
+router.use(authenticateCustomer);
 
-  const user = await Customer.create({ name, mobile, address });
-  res.json(user);
-});
-
-// Login
-router.post("/login", async (req, res) => {
-  const { mobile } = req.body;
-
-  const user = await Customer.findOne({ mobile });
-
-  if (!user) return res.status(400).json({ msg: "User not found" });
-
-  res.json(user);
-});
+router.get("/profile", customerProfileController.getProfile);
+router.put(
+  "/profile",
+  updateProfileValidator,
+  validateRequest,
+  customerProfileController.updateProfile
+);
 
 module.exports = router;

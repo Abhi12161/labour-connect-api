@@ -1,30 +1,48 @@
 const express = require("express");
+const labourAuthController = require("../controllers/labourAuthController");
+const labourProfileController = require("../controllers/labourProfileController");
+const authenticateLabour = require("../middlewares/authenticateLabour");
+const validateRequest = require("../middlewares/validateRequest");
+const {
+  signupValidator,
+  loginValidator,
+  updateProfileValidator,
+  addSkillValidator,
+  updateSkillValidator,
+  deleteSkillValidator,
+} = require("../validators/labourValidators");
+
 const router = express.Router();
 
-const Labour = require("../models/Labour");
+router.post("/signup", signupValidator, validateRequest, labourAuthController.signup);
+router.post("/login", loginValidator, validateRequest, labourAuthController.login);
 
-// Signup
-router.post("/signup", async (req, res) => {
-  console.log("HIT SIGNUP"); // 👈 debug
+router.use(authenticateLabour);
 
-  const { name, mobile, address } = req.body;
-
-  const existing = await Labour.findOne({ mobile });
-  if (existing) return res.status(400).json({ msg: "Already registered" });
-
-  const user = await Labour.create({ name, mobile, address });
-  res.json(user);
-});
-
-// Login
-router.post("/login", async (req, res) => {
-  const { mobile } = req.body;
-
-  const user = await Labour.findOne({ mobile });
-
-  if (!user) return res.status(400).json({ msg: "User not found" });
-
-  res.json(user);
-});
+router.get("/profile", labourProfileController.getProfile);
+router.put(
+  "/profile",
+  updateProfileValidator,
+  validateRequest,
+  labourProfileController.updateProfile
+);
+router.post(
+  "/skills",
+  addSkillValidator,
+  validateRequest,
+  labourProfileController.addSkill
+);
+router.put(
+  "/skills/:skillId",
+  updateSkillValidator,
+  validateRequest,
+  labourProfileController.updateSkill
+);
+router.delete(
+  "/skills/:skillId",
+  deleteSkillValidator,
+  validateRequest,
+  labourProfileController.deleteSkill
+);
 
 module.exports = router;

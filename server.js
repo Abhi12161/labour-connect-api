@@ -19,16 +19,13 @@ if (fs.existsSync(envPath)) {
 
 const app = express();
 
-
-// ✅ STRONG CORS FIX (IMPORTANT)
-app.use(cors({
-  origin: "*",
-  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-  allowedHeaders: ["Content-Type", "Authorization"]
-}));
-
-// ✅ Preflight handle
-
+app.use(
+  cors({
+    origin: "*",
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+  })
+);
 
 app.use(express.json());
 
@@ -36,9 +33,26 @@ connectDB();
 
 app.use("/api/labour", require("./routes/labourRoutes"));
 app.use("/api/customer", require("./routes/customerRoutes"));
+app.use("/api/users", require("./routes/userRoutes"));
 
 app.get("/", (req, res) => {
   res.send("API Running...");
+});
+
+app.use((req, res) => {
+  res.status(404).json({
+    success: false,
+    message: "Route not found",
+  });
+});
+
+app.use((err, req, res, next) => {
+  console.error(err);
+
+  res.status(err.statusCode || 500).json({
+    success: false,
+    message: err.message || "Internal server error",
+  });
 });
 
 const PORT = process.env.PORT || 5000;
