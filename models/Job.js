@@ -6,6 +6,7 @@ const jobSchema = new mongoose.Schema(
     skill: { type: String, required: true },
     description: { type: String },
     city: { type: String },
+    location: { type: String },
     timing: { type: String },
     level: { type: String },
 

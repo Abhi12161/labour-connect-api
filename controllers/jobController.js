@@ -5,13 +5,14 @@ const { sendSuccess } = require("../utils/response");
 
 // ✅ CREATE JOB
 const createJob = asyncHandler(async (req, res) => {
-  const { title, skill, description, city, timing, level } = req.body;
+  const { title, skill, description, city, location, timing, level } = req.body;
 
   const job = await Job.create({
     title,
     skill,
     description,
     city,
+    location,
     timing,
     level,
     customer: req.customer._id, // 🔥 important
