@@ -7,6 +7,7 @@ const notificationSchema = new mongoose.Schema(
 
       enum: [
         "Applied",
+        "Assigned",
         "Hired",
         "Accepted",
         "Cancelled",
@@ -62,7 +63,7 @@ const jobApplicationSchema = new mongoose.Schema(
 
     status: {
       type: String,
-      enum: ["Applied", "Hired", "Accepted", "Cancelled", "Rejected"],
+      enum: ["Applied", "Assigned", "Hired", "Accepted", "Cancelled", "Rejected"],
       default: "Applied",
     },
 

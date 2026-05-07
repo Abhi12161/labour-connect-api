@@ -15,7 +15,6 @@ router.get(
   authenticateCustomer,
   controller.getCustomerNotifications
 );
-router.put("/hire/:applicationId", authenticateCustomer, controller.hireLabour);
 router.put(
   "/customer/cancel/:applicationId",
   authenticateCustomer,
@@ -24,7 +23,6 @@ router.put(
 
 router.get("/my", authenticateLabour, controller.getMyApplications);
 router.get("/notifications", authenticateLabour, controller.getLabourNotifications);
-router.put("/accept/:applicationId", authenticateLabour, controller.acceptJob);
 router.put("/cancel/:applicationId", authenticateLabour, controller.cancelApplication);
 
 module.exports = router;
