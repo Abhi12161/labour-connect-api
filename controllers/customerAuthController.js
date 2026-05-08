@@ -4,7 +4,7 @@ const { generateCustomerToken } = require("../utils/jwt");
 const { sendSuccess } = require("../utils/response");
 
 const signup = asyncHandler(async (req, res) => {
-  const { name, mobile, address, bio, profileImage } = req.body;
+  const { name, mobile, address, bio, profileImage, city } = req.body;
 
   const existingCustomer = await Customer.findOne({ mobile });
 
@@ -21,6 +21,8 @@ const signup = asyncHandler(async (req, res) => {
     address,
     bio,
     profileImage,
+    city
+
   });
   const token = generateCustomerToken(customer);
 

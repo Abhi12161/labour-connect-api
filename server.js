@@ -5,6 +5,7 @@ const express = require("express");
 const cors = require("cors");
 const connectDB = require("./config/db");
 
+
 const envPath = path.resolve(process.cwd(), ".env");
 const localEnvPath = path.resolve(process.cwd(), ".env.local");
 
@@ -36,9 +37,11 @@ app.use("/api/customer", require("./routes/customerRoutes"));
 app.use("/api/users", require("./routes/userRoutes"));
 app.use("/api/jobs", require("./routes/jobRoutes"));
 app.use(
-  "/api/job-applications",
-  require("./routes/jobApplicationRoutes")
+  "/api/labour-request",
+  require("./routes/labourRequestRoutes")
 );
+
+app.use("/api/cities", require("./routes/cityRoutes"));
 
 app.get("/", (req, res) => {
   res.send("API Running...");

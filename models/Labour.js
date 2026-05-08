@@ -36,27 +36,38 @@ const labourSchema = new mongoose.Schema(
       required: true,
       trim: true,
     },
+
     mobile: {
       type: String,
       required: true,
       unique: true,
       trim: true,
     },
+
     address: {
       type: String,
       required: true,
       trim: true,
     },
+
+    city: {
+      type: String,
+      trim: true,
+      default: "",
+    },
+
     bio: {
       type: String,
       trim: true,
       default: "",
     },
+
     profileImage: {
       type: String,
       trim: true,
       default: "",
     },
+
     skills: {
       type: [skillSchema],
       default: [],

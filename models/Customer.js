@@ -28,6 +28,11 @@ const customerSchema = new mongoose.Schema(
       trim: true,
       default: "",
     },
+    city: {
+      type: String,
+      trim: true,
+      default: "",
+    },
   },
   {
     timestamps: true,
