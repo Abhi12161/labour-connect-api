@@ -20,14 +20,18 @@ const createRequest = asyncHandler(async (req, res) => {
 
   const request = await LabourRequest.create({
     labour: req.labour._id,
-    city: req.labour.address,
+    city: req.labour.city || req.labour.address || "",
     status: "Available",
     notification:
       "Aap available hain. Customer aapko hire kar sakta hai.",
+    labourNotifications: [
+      "Aap available hain. Customer aapko hire kar sakta hai.",
+    ],
   });
 
   const fullRequest = await LabourRequest.findById(request._id)
-    .populate("labour");
+    .populate("labour")
+    .populate("customer");
 
   return sendSuccess(res, 201, "Request created", {
     request: fullRequest,
@@ -40,7 +44,9 @@ const getAllLabours = asyncHandler(async (req, res) => {
 
   const requests = await LabourRequest.find({
     status: "Available",
-  }).populate("labour");
+  })
+    .populate("labour")
+    .populate("customer");
 
   return sendSuccess(res, 200, "Labours list", {
     requests,
@@ -56,7 +62,9 @@ const getNearbyLabours = asyncHandler(async (req, res) => {
   const requests = await LabourRequest.find({
     status: "Available",
     city: city,
-  }).populate("labour");
+  })
+    .populate("labour")
+    .populate("customer");
 
   return sendSuccess(res, 200, "Nearby labours", {
     requests,
@@ -66,6 +74,7 @@ const getNearbyLabours = asyncHandler(async (req, res) => {
 
 // 🔥 4. HIRE LABOUR
 const hireLabour = asyncHandler(async (req, res) => {
+  const { location, timing, notes } = req.body;
 
   const request = await LabourRequest.findById(req.params.requestId);
 
@@ -77,13 +86,28 @@ const hireLabour = asyncHandler(async (req, res) => {
   }
 
   request.status = "Hired";
+  request.customer = req.customer._id;
+  request.workDetails = {
+    location: location || "",
+    timing: timing || "",
+    notes: notes || "",
+    customerName: req.customer.name || "",
+    customerMobile: req.customer.mobile || "",
+  };
   request.notification =
-    "Aapko kaam ke liye hire kiya gaya hai.";
+    "Aapko kaam ke liye hire kiya gaya hai. Full details aapke status me available hain.";
+  request.labourNotifications.push(
+    "Aapko kaam ke liye hire kiya gaya hai. Full details aapke status me available hain."
+  );
+  request.customerNotifications.push(
+    `Aapne ${req.customer.name} account se labour ko hire kar liya hai.`
+  );
 
   await request.save();
 
   const fullRequest = await LabourRequest.findById(request._id)
-    .populate("labour");
+    .populate("labour")
+    .populate("customer");
 
   return sendSuccess(res, 200, "Labour hired", {
     request: fullRequest,
@@ -96,7 +120,9 @@ const getMyStatus = asyncHandler(async (req, res) => {
 
   const request = await LabourRequest.findOne({
     labour: req.labour._id,
-  }).populate("labour");
+  })
+    .populate("labour")
+    .populate("customer");
 
   return sendSuccess(res, 200, "Status fetched", {
     request,

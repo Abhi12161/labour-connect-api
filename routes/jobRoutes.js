@@ -4,14 +4,11 @@ const router = express.Router();
 const jobController = require("../controllers/jobController");
 const authenticateCustomer = require("../middlewares/authenticateCustomer");
 
-
-// ✅ PUBLIC ROUTE (सब देख सकते हैं)
 router.get("/", jobController.getJobs);
-
-
-// 🔐 PROTECTED ROUTES (सिर्फ customer)
 router.post("/", authenticateCustomer, jobController.createJob);
 router.get("/my", authenticateCustomer, jobController.getMyJobs);
-
+router.put("/:jobId", authenticateCustomer, jobController.updateJob);
+router.put("/:jobId/cancel", authenticateCustomer, jobController.cancelJob);
+router.get("/:jobId", jobController.getJobById);
 
 module.exports = router;

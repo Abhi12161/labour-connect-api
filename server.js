@@ -36,6 +36,7 @@ app.use("/api/labour", require("./routes/labourRoutes"));
 app.use("/api/customer", require("./routes/customerRoutes"));
 app.use("/api/users", require("./routes/userRoutes"));
 app.use("/api/jobs", require("./routes/jobRoutes"));
+app.use("/api/job-applications", require("./routes/jobApplicationRoutes"));
 app.use(
   "/api/labour-request",
   require("./routes/labourRequestRoutes")

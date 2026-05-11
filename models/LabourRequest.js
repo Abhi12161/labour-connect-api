@@ -10,15 +10,57 @@ const labourRequestSchema = new mongoose.Schema(
 
     status: {
       type: String,
-      enum: ["Available", "Hired"],
+      enum: ["Available", "Hired", "Accepted", "Cancelled"],
       default: "Available",
     },
 
-    city: String,
+    city: {
+      type: String,
+      default: "",
+    },
+
+    customer: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Customer",
+      default: null,
+    },
+
+    workDetails: {
+      location: {
+        type: String,
+        default: "",
+      },
+      timing: {
+        type: String,
+        default: "",
+      },
+      notes: {
+        type: String,
+        default: "",
+      },
+      customerName: {
+        type: String,
+        default: "",
+      },
+      customerMobile: {
+        type: String,
+        default: "",
+      },
+    },
 
     notification: {
       type: String,
       default: "Aap available hain",
+    },
+
+    labourNotifications: {
+      type: [String],
+      default: [],
+    },
+
+    customerNotifications: {
+      type: [String],
+      default: [],
     },
   },
   { timestamps: true }

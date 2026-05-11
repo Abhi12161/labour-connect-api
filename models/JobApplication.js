@@ -1,5 +1,34 @@
 const mongoose = require("mongoose");
 
+const notificationSchema = new mongoose.Schema(
+  {
+    type: {
+      type: String,
+      enum: [
+        "Applied",
+        "Hired",
+        "Accepted",
+        "Cancelled",
+        "Updated",
+        "StatusChanged",
+      ],
+      required: true,
+    },
+    message: {
+      type: String,
+      required: true,
+      trim: true,
+    },
+    createdAt: {
+      type: Date,
+      default: Date.now,
+    },
+  },
+  {
+    _id: true,
+  }
+);
+
 const jobApplicationSchema = new mongoose.Schema(
   {
     job: {
@@ -22,7 +51,7 @@ const jobApplicationSchema = new mongoose.Schema(
 
     status: {
       type: String,
-      enum: ["Applied", "Hired"],
+      enum: ["Applied", "Hired", "Accepted", "Cancelled", "Rejected"],
       default: "Applied",
     },
 
@@ -33,6 +62,22 @@ const jobApplicationSchema = new mongoose.Schema(
 
     customerNotification: {
       type: String,
+      default: "",
+    },
+
+    labourNotifications: {
+      type: [notificationSchema],
+      default: [],
+    },
+
+    customerNotifications: {
+      type: [notificationSchema],
+      default: [],
+    },
+
+    cancellationReason: {
+      type: String,
+      trim: true,
       default: "",
     },
   },

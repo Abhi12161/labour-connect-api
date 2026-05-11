@@ -1,48 +1,30 @@
 const express = require("express");
 const router = express.Router();
 
-const controller = require(
-  "../controllers/jobApplicationController"
-);
+const controller = require("../controllers/jobApplicationController");
 
-const authenticateLabour = require(
-  "../middlewares/authenticateLabour"
-);
+const authenticateLabour = require("../middlewares/authenticateLabour");
+const authenticateCustomer = require("../middlewares/authenticateCustomer");
 
-const authenticateCustomer = require(
-  "../middlewares/authenticateCustomer"
-);
+router.post("/apply", authenticateLabour, controller.applyJob);
+router.post("/apply/:jobId", authenticateLabour, controller.applyJob);
 
-
-// 👷 APPLY
-router.post(
-  "/apply/:jobId",
-  authenticateLabour,
-  controller.applyJob
-);
-
-
-// 👨 CUSTOMER DASHBOARD
+router.get("/customer", authenticateCustomer, controller.getCustomerApplications);
 router.get(
-  "/customer",
+  "/customer/notifications",
   authenticateCustomer,
-  controller.getCustomerApplications
+  controller.getCustomerNotifications
 );
-
-
-// 🔥 HIRE
+router.put("/hire/:applicationId", authenticateCustomer, controller.hireLabour);
 router.put(
-  "/hire/:applicationId",
+  "/customer/cancel/:applicationId",
   authenticateCustomer,
-  controller.hireLabour
+  controller.cancelApplication
 );
 
-
-// 🔔 LABOUR NOTIFICATIONS
-router.get(
-  "/notifications",
-  authenticateLabour,
-  controller.getLabourNotifications
-);
+router.get("/my", authenticateLabour, controller.getMyApplications);
+router.get("/notifications", authenticateLabour, controller.getLabourNotifications);
+router.put("/accept/:applicationId", authenticateLabour, controller.acceptJob);
+router.put("/cancel/:applicationId", authenticateLabour, controller.cancelApplication);
 
 module.exports = router;
