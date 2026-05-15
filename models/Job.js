@@ -57,6 +57,15 @@ const jobSchema = new mongoose.Schema(
       ref: "Customer",
       required: true,
     },
+    requiredLabours: {
+      type: Number,
+      default: 1,
+    },
+
+    hiredCount: {
+      type: Number,
+      default: 0,
+    },
   },
   { timestamps: true }
 );

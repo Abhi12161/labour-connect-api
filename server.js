@@ -41,6 +41,10 @@ app.use(
   "/api/labour-request",
   require("./routes/labourRequestRoutes")
 );
+app.use(
+  "/api/admin",
+  require("./routes/adminRoutes")
+);
 
 app.use("/api/cities", require("./routes/cityRoutes"));
 

@@ -9,7 +9,16 @@ const populateJob = (query) =>
     .populate("assignedLabour", "name mobile address bio profileImage city skills");
 
 const createJob = asyncHandler(async (req, res) => {
-  const { title, skill, description, city, location, timing, level } = req.body;
+  const {
+    title,
+    skill,
+    description,
+    city,
+    location,
+    timing,
+    level,
+    requiredLabours,
+  } = req.body;
 
   const job = await Job.create({
     title,
@@ -19,6 +28,13 @@ const createJob = asyncHandler(async (req, res) => {
     location,
     timing,
     level,
+
+    // 👇 kitne labour chahiye
+    requiredLabours: requiredLabours || 1,
+
+    // 👇 initially 0 hire honge
+    hiredCount: 0,
+
     customer: req.customer._id,
   });
 
@@ -28,42 +44,32 @@ const createJob = asyncHandler(async (req, res) => {
 });
 
 const getJobs = asyncHandler(async (req, res) => {
-  const { city, skill, level, status, search } = req.query;
-  const filters = {};
 
-  if (city) {
-    filters.city = new RegExp(`^${city}$`, "i");
-  }
+  const start = new Date();
+  start.setHours(0, 0, 0, 0);
 
-  if (skill) {
-    filters.skill = new RegExp(skill, "i");
-  }
+  const end = new Date();
+  end.setHours(23, 59, 59, 999);
 
-  if (level) {
-    filters.level = new RegExp(`^${level}$`, "i");
-  }
+  const jobs = await populateJob(
+    Job.find({
+      status: "Open",
 
-  if (status) {
-    filters.status = status;
-  } else {
-    filters.status = "Open";
-  }
+      createdAt: {
+        $gte: start,
+        $lte: end,
+      },
 
-  if (search) {
-    filters.$or = [
-      { title: new RegExp(search, "i") },
-      { description: new RegExp(search, "i") },
-      { location: new RegExp(search, "i") },
-      { city: new RegExp(search, "i") },
-      { skill: new RegExp(search, "i") },
-    ];
-  }
+      $expr: {
+        $lt: ["$hiredCount", "$requiredLabours"],
+      },
+    }).sort({ createdAt: -1 })
+  );
 
-  const jobs = await populateJob(Job.find(filters).sort({ createdAt: -1 }));
-
-  return sendSuccess(res, 200, "Jobs fetched", { jobs });
+  return sendSuccess(res, 200, "Jobs fetched", {
+    jobs,
+  });
 });
-
 const getJobById = asyncHandler(async (req, res) => {
   const job = await populateJob(Job.findById(req.params.jobId));
 

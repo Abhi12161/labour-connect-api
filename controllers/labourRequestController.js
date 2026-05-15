@@ -44,6 +44,11 @@ const getAllLabours = asyncHandler(async (req, res) => {
 
   const requests = await LabourRequest.find({
     status: "Available",
+
+    // 👇 only active requests
+    expiresAt: {
+      $gt: new Date(),
+    },
   })
     .populate("labour")
     .populate("customer");
@@ -61,7 +66,13 @@ const getNearbyLabours = asyncHandler(async (req, res) => {
 
   const requests = await LabourRequest.find({
     status: "Available",
+
     city: city,
+
+    // 👇 auto expired hidden
+    expiresAt: {
+      $gt: new Date(),
+    },
   })
     .populate("labour")
     .populate("customer");
@@ -70,7 +81,6 @@ const getNearbyLabours = asyncHandler(async (req, res) => {
     requests,
   });
 });
-
 
 // 🔥 4. HIRE LABOUR
 const hireLabour = asyncHandler(async (req, res) => {

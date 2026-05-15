@@ -52,6 +52,12 @@ const labourRequestSchema = new mongoose.Schema(
       type: String,
       default: "Aap available hain",
     },
+    expiresAt: {
+      type: Date,
+
+      default: () =>
+        new Date(Date.now() + 24 * 60 * 60 * 1000),
+    },
 
     labourNotifications: {
       type: [String],

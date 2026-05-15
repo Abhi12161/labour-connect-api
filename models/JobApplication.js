@@ -4,6 +4,7 @@ const notificationSchema = new mongoose.Schema(
   {
     type: {
       type: String,
+
       enum: [
         "Applied",
         "Hired",
@@ -12,18 +13,28 @@ const notificationSchema = new mongoose.Schema(
         "Updated",
         "StatusChanged",
       ],
+
       required: true,
     },
+
     message: {
       type: String,
       required: true,
       trim: true,
     },
+
+    // 👇 unread support
+    isRead: {
+      type: Boolean,
+      default: false,
+    },
+
     createdAt: {
       type: Date,
       default: Date.now,
     },
   },
+
   {
     _id: true,
   }

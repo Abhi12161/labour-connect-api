@@ -1,26 +1,12 @@
 const Job = require("../models/Job");
 const JobApplication = require("../models/JobApplication");
-
 const asyncHandler = require("../middlewares/asyncHandler");
 const { sendSuccess } = require("../utils/response");
 
 const populateApplication = (query) =>
-  query
-    .populate("labour")
-    .populate("customer")
-    .populate("job");
+  query.populate("labour").populate("customer").populate("job");
 
-const addNotification = (application, recipient, type, message) => {
-  if (recipient === "labour") {
-    application.labourNotification = message;
-    application.labourNotifications.push({ type, message });
-    return;
-  }
-
-  application.customerNotification = message;
-  application.customerNotifications.push({ type, message });
-};
-
+// ✅ APPLY = AUTO ASSIGN — koi hire/accept step nahi
 const applyJob = asyncHandler(async (req, res) => {
   const jobId = req.params.jobId || req.body.jobId;
 
@@ -43,7 +29,14 @@ const applyJob = asyncHandler(async (req, res) => {
   if (job.status !== "Open") {
     return res.status(400).json({
       success: false,
-      message: "This job is not open for applications",
+      message: "Ye job ab available nahi hai",
+    });
+  }
+
+  if (job.hiredCount >= job.requiredLabours) {
+    return res.status(400).json({
+      success: false,
+      message: "Is job ki saari positions bhar gayi hain",
     });
   }
 
@@ -55,223 +48,65 @@ const applyJob = asyncHandler(async (req, res) => {
   if (alreadyApplied) {
     return res.status(400).json({
       success: false,
-      message: "Already applied",
+      message: "Aap pehle hi apply kar chuke hain",
     });
   }
 
+  // ✅ Direct Assigned — apply karo, turant assign
   const application = await JobApplication.create({
     job: job._id,
     labour: req.labour._id,
     customer: job.customer._id,
-    status: "Applied",
-    labourNotification:
-      "Aapka job application submit ho gaya hai. Aapko notification mil jayegi.",
-    customerNotification: `${req.labour.name} ne aapki job par apply kiya hai. Aapko notify kar diya gaya hai.`,
-    labourNotifications: [
-      {
-        type: "Applied",
-        message:
-          "Aapka job application submit ho gaya hai. Aapko notification mil jayegi.",
-      },
-    ],
-    customerNotifications: [
-      {
-        type: "Applied",
-        message: `${req.labour.name} ne aapki job par apply kiya hai. Aapko notify kar diya gaya hai.`,
-      },
-    ],
+    status: "Assigned",
+    labourNotification: `Aapko "${job.title}" job par assign kar diya gaya hai.`,
+    customerNotification: `${req.labour.name} aapki "${job.title}" job par assign ho gaya hai.`,
+    labourNotifications: [{
+      type: "Assigned",
+      message: `Aapko "${job.title}" job par assign kar diya gaya hai.`,
+    }],
+    customerNotifications: [{
+      type: "Assigned",
+      message: `${req.labour.name} aapki "${job.title}" job par assign ho gaya hai.`,
+    }],
   });
+
+  // ✅ hiredCount badhao
+  job.hiredCount += 1;
+
+  // ✅ Jaise hi sab positions bhar jaayein — Job band
+  if (job.hiredCount >= job.requiredLabours) {
+    job.status = "Completed";
+  }
+
+  await job.save();
 
   const fullApplication = await populateApplication(
     JobApplication.findById(application._id)
   );
 
-  return sendSuccess(res, 201, "Applied successfully", {
+  return sendSuccess(res, 201, "Assigned successfully", {
     application: fullApplication,
-    applicant: fullApplication.labour,
-    customerNotification: fullApplication.customerNotification,
-    labourNotification: fullApplication.labourNotification,
+    jobFull: job.status === "Completed",
   });
 });
 
-const getCustomerApplications = asyncHandler(async (req, res) => {
-  const applications = await populateApplication(
-    JobApplication.find({
-      customer: req.customer._id,
-    }).sort({ updatedAt: -1 })
-  );
-
-  return sendSuccess(res, 200, "Applications fetched", {
-    applications,
-  });
-});
-
-const hireLabour = asyncHandler(async (req, res) => {
-  const application = await JobApplication.findById(
-    req.params.applicationId
-  )
-    .populate("job")
-    .populate("labour");
-
-  if (!application) {
-    return res.status(404).json({
-      success: false,
-      message: "Application not found",
-    });
-  }
-
-  if (String(application.customer) !== String(req.customer._id)) {
-    return res.status(403).json({
-      success: false,
-      message: "You can only hire from your own job applications",
-    });
-  }
-
-  application.status = "Hired";
-  application.cancellationReason = "";
-
-  addNotification(
-    application,
-    "labour",
-    "Hired",
-    `You are hired for "${application.job.title}". Location: ${
-      application.job.location || application.job.city || "N/A"
-    }, Time: ${application.job.timing || "N/A"}, Customer: ${
-      req.customer.name
-    }, Contact: ${req.customer.mobile}.`
-  );
-  addNotification(
-    application,
-    "customer",
-    "Hired",
-    `You hired ${application.labour.name} for "${application.job.title}".`
-  );
-
-  const siblingApplications = await JobApplication.find({
-    job: application.job._id,
-    _id: { $ne: application._id },
-    status: "Applied",
-  });
-
-  await Promise.all(
-    siblingApplications.map((item) => {
-      item.status = "Rejected";
-      item.cancellationReason = "Another labour has been hired for this job.";
-      addNotification(
-        item,
-        "labour",
-        "StatusChanged",
-        `The job "${application.job.title}" is no longer available because another labour was hired.`
-      );
-      return item.save();
-    })
-  );
-
-  application.job.status = "Assigned";
-  application.job.assignedLabour = application.labour._id;
-  await application.job.save();
-
-  await application.save();
-
-  const fullApplication = await populateApplication(
-    JobApplication.findById(application._id)
-  );
-
-  return sendSuccess(res, 200, "Labour hired successfully", {
-    application: fullApplication,
-  });
-});
-
+// ✅ Labour ki apni assigned jobs
 const getMyApplications = asyncHandler(async (req, res) => {
   const applications = await populateApplication(
-    JobApplication.find({
-      labour: req.labour._id,
-    }).sort({ updatedAt: -1 })
+    JobApplication.find({ labour: req.labour._id }).sort({ updatedAt: -1 })
   );
-
-  return sendSuccess(res, 200, "Applications fetched", {
-    applications,
-  });
+  return sendSuccess(res, 200, "Applications fetched", { applications });
 });
 
-const getLabourNotifications = asyncHandler(async (req, res) => {
-  const notifications = await populateApplication(
-    JobApplication.find({
-      labour: req.labour._id,
-    }).sort({ updatedAt: -1 })
+// ✅ Customer ke jobs par assigned labours
+const getCustomerApplications = asyncHandler(async (req, res) => {
+  const applications = await populateApplication(
+    JobApplication.find({ customer: req.customer._id }).sort({ updatedAt: -1 })
   );
-
-  return sendSuccess(res, 200, "Notifications fetched", {
-    notifications,
-  });
+  return sendSuccess(res, 200, "Applications fetched", { applications });
 });
 
-const getCustomerNotifications = asyncHandler(async (req, res) => {
-  const notifications = await populateApplication(
-    JobApplication.find({
-      customer: req.customer._id,
-    }).sort({ updatedAt: -1 })
-  );
-
-  return sendSuccess(res, 200, "Notifications fetched", {
-    notifications,
-  });
-});
-
-const acceptJob = asyncHandler(async (req, res) => {
-  const application = await JobApplication.findById(
-    req.params.applicationId
-  ).populate("job");
-
-  if (!application) {
-    return res.status(404).json({
-      success: false,
-      message: "Application not found",
-    });
-  }
-
-  if (String(application.labour) !== String(req.labour._id)) {
-    return res.status(403).json({
-      success: false,
-      message: "You can only accept your own hired jobs",
-    });
-  }
-
-  if (application.status !== "Hired") {
-    return res.status(400).json({
-      success: false,
-      message: "Only hired jobs can be accepted",
-    });
-  }
-
-  application.status = "Accepted";
-
-  addNotification(
-    application,
-    "labour",
-    "Accepted",
-    `You accepted the job "${application.job.title}".`
-  );
-  addNotification(
-    application,
-    "customer",
-    "Accepted",
-    `${req.labour.name} accepted your job "${application.job.title}".`
-  );
-
-  application.job.status = "Accepted";
-  await application.job.save();
-  await application.save();
-
-  const fullApplication = await populateApplication(
-    JobApplication.findById(application._id)
-  );
-
-  return sendSuccess(res, 200, "Job accepted successfully", {
-    application: fullApplication,
-  });
-});
-
+// ✅ Cancel — Labour ya Customer dono kar sakte hain
 const cancelApplication = asyncHandler(async (req, res) => {
   const application = await JobApplication.findById(
     req.params.applicationId
@@ -292,37 +127,36 @@ const cancelApplication = asyncHandler(async (req, res) => {
   if (!isOwner) {
     return res.status(403).json({
       success: false,
-      message: "You do not have permission to cancel this application",
+      message: "Aapko ye cancel karne ka permission nahi hai",
     });
   }
 
   const reason =
     req.body.reason ||
-    (isCustomer
-      ? "Customer cancelled this application."
-      : "Labour withdrew this application.");
+    (isCustomer ? "Customer ne cancel kiya." : "Labour ne withdraw kiya.");
 
   application.status = "Cancelled";
   application.cancellationReason = reason;
 
-  addNotification(application, "labour", "Cancelled", reason);
-  addNotification(
-    application,
-    "customer",
-    "Cancelled",
-    isCustomer
-      ? `You cancelled the application for "${application.job.title}".`
-      : `${req.labour.name} withdrew the application for "${application.job.title}".`
-  );
+  application.labourNotification = reason;
+  application.customerNotification = isCustomer
+    ? `Aapne "${application.job.title}" se ek labour hataya.`
+    : `${req.labour?.name || "Labour"} ne "${application.job.title}" se withdraw kar liya.`;
 
-  if (
-    application.job &&
-    application.job.assignedLabour &&
-    String(application.job.assignedLabour) === String(application.labour)
-  ) {
-    application.job.assignedLabour = null;
-    application.job.status = "Open";
-    await application.job.save();
+  application.labourNotifications.push({ type: "Cancelled", message: reason });
+  application.customerNotifications.push({
+    type: "Cancelled",
+    message: application.customerNotification,
+  });
+
+  // ✅ Position free karo — job wapas Open
+  const job = application.job;
+  if (job && job.hiredCount > 0) {
+    job.hiredCount -= 1;
+    if (job.status === "Completed") {
+      job.status = "Open";
+    }
+    await job.save();
   }
 
   await application.save();
@@ -336,13 +170,31 @@ const cancelApplication = asyncHandler(async (req, res) => {
   });
 });
 
+// ✅ Labour notifications
+const getLabourNotifications = asyncHandler(async (req, res) => {
+  const notifications = await populateApplication(
+    JobApplication.find({ labour: req.labour._id }).sort({ updatedAt: -1 })
+  );
+  return sendSuccess(res, 200, "Notifications fetched", { notifications });
+});
+
+// ✅ Customer notifications
+const getCustomerNotifications = asyncHandler(async (req, res) => {
+  const notifications = await populateApplication(
+    JobApplication.find({ customer: req.customer._id }).sort({ updatedAt: -1 })
+  );
+  return sendSuccess(res, 200, "Notifications fetched", { notifications });
+});
+
+// ❌ hireLabour      — HATA DIYA
+// ❌ acceptJob       — HATA DIYA
+// ❌ addNotification — HATA DIYA
+
 module.exports = {
   applyJob,
-  getCustomerApplications,
-  hireLabour,
   getMyApplications,
+  getCustomerApplications,
+  cancelApplication,
   getLabourNotifications,
   getCustomerNotifications,
-  acceptJob,
-  cancelApplication,
 };
