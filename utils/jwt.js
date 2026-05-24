@@ -23,7 +23,20 @@ const generateCustomerToken = (customer) =>
     { expiresIn: JWT_EXPIRES_IN }
   );
 
+const generateAdminToken = (admin) =>
+  jwt.sign(
+    {
+      name: admin.name,
+      email: admin.email,
+      mobile: admin.mobile,
+      role: "admin",
+    },
+    JWT_SECRET,
+    { expiresIn: JWT_EXPIRES_IN }
+  );
+
 module.exports = {
   generateLabourToken,
   generateCustomerToken,
+  generateAdminToken,
 };

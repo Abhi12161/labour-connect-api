@@ -1,64 +1,16 @@
 const express = require("express");
-
 const router = express.Router();
 
-const Job = require("../models/Job");
+const adminController = require("../controllers/adminController");
+const authenticateAdmin = require("../middlewares/authenticateAdmin");
 
-const JobApplication = require("../models/JobApplication");
+router.post("/login", adminController.login);
 
-const LabourRequest = require("../models/LabourRequest");
+router.use(authenticateAdmin);
 
-
-// 👇 all jobs
-router.get("/jobs", async (req, res) => {
-
-  const jobs = await Job.find()
-    .populate("customer")
-    .sort({ createdAt: -1 });
-
-  res.json({
-    success: true,
-    jobs,
-  });
-});
-
-
-// 👇 all applications
-router.get("/applications", async (req, res) => {
-
-  const applications =
-    await JobApplication.find()
-
-      .populate("job")
-
-      .populate("labour")
-
-      .populate("customer")
-
-      .sort({ createdAt: -1 });
-
-  res.json({
-    success: true,
-    applications,
-  });
-});
-
-
-// 👇 all requests
-router.get("/requests", async (req, res) => {
-
-  const requests = await LabourRequest.find()
-
-    .populate("labour")
-
-    .populate("customer")
-
-    .sort({ createdAt: -1 });
-
-  res.json({
-    success: true,
-    requests,
-  });
-});
+router.get("/overview", adminController.getOverview);
+router.get("/jobs", adminController.getJobs);
+router.get("/applications", adminController.getApplications);
+router.get("/requests", adminController.getRequests);
 
 module.exports = router;
