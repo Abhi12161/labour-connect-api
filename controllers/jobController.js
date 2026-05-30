@@ -16,6 +16,7 @@ const createJob = asyncHandler(async (req, res) => {
     city,
     location,
     timing,
+    requiredDate,
     level,
     requiredLabours,
   } = req.body;
@@ -27,6 +28,7 @@ const createJob = asyncHandler(async (req, res) => {
     city,
     location,
     timing,
+    requiredDate,
     level,
 
     // 👇 kitne labour chahiye
@@ -111,6 +113,7 @@ const updateJob = asyncHandler(async (req, res) => {
     "city",
     "location",
     "timing",
+    "requiredDate",
     "level",
     "status",
   ];

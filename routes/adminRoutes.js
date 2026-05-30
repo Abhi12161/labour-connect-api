@@ -9,6 +9,10 @@ router.post("/login", adminController.login);
 router.use(authenticateAdmin);
 
 router.get("/overview", adminController.getOverview);
+router.get("/assignment-panel", adminController.getAssignmentPanel);
+router.get("/nearby-labours/:jobId", adminController.getNearbyLabours);
+router.post("/assign-labour", adminController.assignLabour);
+router.put("/remove-assigned-labour/:jobId", adminController.removeAssignedLabour);
 router.get("/jobs", adminController.getJobs);
 router.get("/applications", adminController.getApplications);
 router.get("/requests", adminController.getRequests);

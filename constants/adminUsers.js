@@ -1,7 +1,7 @@
 const defaultAdmins = [
   {
-    name: "Admin One",
-    email: "admin1@example.com",
+    name: "One",
+    email: "ad@gmail.com",
     mobile: "9000000001",
   },
   {

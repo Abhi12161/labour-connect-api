@@ -24,6 +24,45 @@ const updateHistorySchema = new mongoose.Schema(
   }
 );
 
+const assignmentHistorySchema = new mongoose.Schema(
+  {
+    labour: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Labour",
+      default: null,
+    },
+    previousLabour: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Labour",
+      default: null,
+    },
+    assignedByRole: {
+      type: String,
+      enum: ["Admin", "Customer", "System"],
+      default: "Admin",
+    },
+    assignedBy: {
+      name: { type: String, trim: true, default: "" },
+      email: { type: String, trim: true, default: "" },
+      mobile: { type: String, trim: true, default: "" },
+    },
+    action: {
+      type: String,
+      enum: ["Assigned", "Reassigned", "Removed"],
+      required: true,
+    },
+    note: {
+      type: String,
+      trim: true,
+      default: "",
+    },
+  },
+  {
+    _id: true,
+    timestamps: true,
+  }
+);
+
 const jobSchema = new mongoose.Schema(
   {
     title: { type: String, required: true },
@@ -32,6 +71,7 @@ const jobSchema = new mongoose.Schema(
     city: { type: String },
     location: { type: String },
     timing: { type: String },
+    requiredDate: { type: Date, default: null },
     level: { type: String },
     status: {
       type: String,
@@ -50,6 +90,10 @@ const jobSchema = new mongoose.Schema(
     },
     updateHistory: {
       type: [updateHistorySchema],
+      default: [],
+    },
+    assignmentHistory: {
+      type: [assignmentHistorySchema],
       default: [],
     },
     customer: {
