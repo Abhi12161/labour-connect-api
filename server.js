@@ -5,7 +5,6 @@ const express = require("express");
 const cors = require("cors");
 const connectDB = require("./config/db");
 
-
 const envPath = path.resolve(process.cwd(), ".env");
 const localEnvPath = path.resolve(process.cwd(), ".env.local");
 
@@ -30,23 +29,14 @@ app.use(
 
 app.use(express.json());
 
-connectDB();
-
 app.use("/api/labour", require("./routes/labourRoutes"));
 app.use("/api/customer", require("./routes/customerRoutes"));
 app.use("/api/users", require("./routes/userRoutes"));
 app.use("/api/jobs", require("./routes/jobRoutes"));
 app.use("/api/job-applications", require("./routes/jobApplicationRoutes"));
 app.use("/api/dashboard", require("./routes/dashboardRoutes"));
-app.use(
-  "/api/labour-request",
-  require("./routes/labourRequestRoutes")
-);
-app.use(
-  "/api/admin",
-  require("./routes/adminRoutes")
-);
-
+app.use("/api/labour-request", require("./routes/labourRequestRoutes"));
+app.use("/api/admin", require("./routes/adminRoutes"));
 app.use("/api/cities", require("./routes/cityRoutes"));
 
 app.get("/", (req, res) => {
@@ -71,6 +61,18 @@ app.use((err, req, res, next) => {
 
 const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, () => {
-  console.log(`Server running on ${PORT}`);
-});
+const startServer = async () => {
+  try {
+    await connectDB();
+
+    app.listen(PORT, () => {
+      console.log(`🚀 Server running on ${PORT}`);
+    });
+  } catch (err) {
+    console.error("❌ Server startup failed:");
+    console.error(err);
+    process.exit(1);
+  }
+};
+
+startServer();
