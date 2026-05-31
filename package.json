@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "local": "node scripts/start.js .env.local",
     "atlas": "node scripts/start.js .env.atlas",
     "backup": "node scripts/dump.js",
