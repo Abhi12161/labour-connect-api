@@ -11,12 +11,18 @@ const {
   updateSkillValidator,
   deleteSkillValidator,
 } = require("../validators/labourValidators");
+const {
+  signupRateLimiter,
+  loginRateLimiter,
+} = require("../controllers/labourAuthController");
 
 const router = express.Router();
 
-router.post("/signup", signupValidator, validateRequest, labourAuthController.signup);
-router.post("/login", loginValidator, validateRequest, labourAuthController.login);
+// Public routes — rate limiter pehle lagega, phir validator, phir controller
+router.post("/signup", signupRateLimiter, signupValidator, validateRequest, labourAuthController.signup);
+router.post("/login", loginRateLimiter, loginValidator, validateRequest, labourAuthController.login);
 
+// Protected routes — JWT verify hoga
 router.use(authenticateLabour);
 
 router.get("/profile", labourProfileController.getProfile);
