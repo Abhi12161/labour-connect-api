@@ -38,6 +38,29 @@ app.use("/api/dashboard", require("./routes/dashboardRoutes"));
 app.use("/api/labour-request", require("./routes/labourRequestRoutes"));
 app.use("/api/admin", require("./routes/adminRoutes"));
 app.use("/api/cities", require("./routes/cityRoutes"));
+app.use(
+  "/api/fulltime",require( "./routes/fullTimeProfileRoutes")
+);
+app.use(
+  "/api/fulltime-job-posts",
+  require("./routes/fullTimeJobPostRoutes")
+);
+app.use(
+  "/api/hire-requests",
+  require("./routes/hireRequestRoutes")
+);
+app.use(
+  "/api/customer-jobs",
+  require("./routes/customerJobRoutes")
+);
+
+app.use(
+  "/api/customer-job-applications",
+  require(
+    "./routes/customerJobApplicationRoutes"
+  )
+);
+
 
 app.get("/", (req, res) => {
   res.send("API Running...");
