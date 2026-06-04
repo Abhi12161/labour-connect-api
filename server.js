@@ -4,6 +4,9 @@ const dotenv = require("dotenv");
 const express = require("express");
 const cors = require("cors");
 const connectDB = require("./config/db");
+const fullTimeCustomerJobRoutes = require(
+  "./routes/fullTimeCustomerJobRoutes"
+);
 
 const envPath = path.resolve(process.cwd(), ".env");
 const localEnvPath = path.resolve(process.cwd(), ".env.local");
@@ -59,6 +62,12 @@ app.use(
   require(
     "./routes/customerJobApplicationRoutes"
   )
+);
+
+
+app.use(
+  "/api/fulltime-customer-jobs",
+  fullTimeCustomerJobRoutes
 );
 
 
