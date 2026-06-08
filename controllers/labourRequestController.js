@@ -1,9 +1,23 @@
 const LabourRequest = require("../models/LabourRequest");
 const asyncHandler = require("../middlewares/asyncHandler");
 const { sendSuccess } = require("../utils/response");
+const City = require("../models/City");
+
+const getDistanceKm = (lat1, lon1, lat2, lon2) => {
+  const R = 6371;
+  const dLat = ((lat2 - lat1) * Math.PI) / 180;
+  const dLon = ((lon2 - lon1) * Math.PI) / 180;
+  const a =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos((lat1 * Math.PI) / 180) *
+      Math.cos((lat2 * Math.PI) / 180) *
+      Math.sin(dLon / 2) *
+      Math.sin(dLon / 2);
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+};
 
 
-// 👷 1. CREATE REQUEST (Labour says: I am available)
+//  1. CREATE REQUEST (Labour says: I am available)
 const createRequest = asyncHandler(async (req, res) => {
 
   const existing = await LabourRequest.findOne({
@@ -44,8 +58,6 @@ const getAllLabours = asyncHandler(async (req, res) => {
 
   const requests = await LabourRequest.find({
     status: "Available",
-
-    // 👇 only active requests
     expiresAt: {
       $gt: new Date(),
     },
@@ -59,17 +71,32 @@ const getAllLabours = asyncHandler(async (req, res) => {
 });
 
 
-// 📍 3. LOCATION FILTER (City Based)
+// 📍 3. LOCATION FILTER - 20km radius (FIXED: single DB call for all cities)
 const getNearbyLabours = asyncHandler(async (req, res) => {
-
   const { city } = req.query;
+
+  if (!city) {
+    return sendSuccess(res, 200, "Nearby labours", {
+      requests: [],
+    });
+  }
+
+  // Saari cities ek hi baar load karo
+  const allCities = await City.find().lean();
+  const cityMap = new Map(
+    allCities.map((c) => [c.name.trim().toLowerCase(), c])
+  );
+
+  const customerCity = cityMap.get(city.trim().toLowerCase());
+
+  if (!customerCity) {
+    return sendSuccess(res, 200, "Nearby labours", {
+      requests: [],
+    });
+  }
 
   const requests = await LabourRequest.find({
     status: "Available",
-
-    city: city,
-
-    // 👇 auto expired hidden
     expiresAt: {
       $gt: new Date(),
     },
@@ -77,8 +104,32 @@ const getNearbyLabours = asyncHandler(async (req, res) => {
     .populate("labour")
     .populate("customer");
 
+  const nearbyRequests = [];
+
+  for (const request of requests) {
+    if (!request.city) continue;
+
+    const labourCity = cityMap.get(request.city.trim().toLowerCase());
+
+    if (!labourCity) continue;
+
+    const distance = getDistanceKm(
+      customerCity.latitude,
+      customerCity.longitude,
+      labourCity.latitude,
+      labourCity.longitude
+    );
+
+    if (distance <= 20) {
+      nearbyRequests.push({
+        ...request.toObject(),
+        distanceKm: Number(distance.toFixed(1)),
+      });
+    }
+  }
+
   return sendSuccess(res, 200, "Nearby labours", {
-    requests,
+    requests: nearbyRequests,
   });
 });
 

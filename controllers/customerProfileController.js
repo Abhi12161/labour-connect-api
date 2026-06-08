@@ -23,7 +23,7 @@ const updateProfile = asyncHandler(async (req, res) => {
     }
   }
 
-  const allowedFields = ["name", "mobile", "address", "bio", "profileImage"];
+  const allowedFields = ["name", "mobile", "address", "bio", "profileImage","city"];
 
   for (const field of allowedFields) {
     if (req.body[field] !== undefined) {

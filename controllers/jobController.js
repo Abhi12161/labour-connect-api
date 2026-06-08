@@ -2,6 +2,24 @@ const Job = require("../models/Job");
 const JobApplication = require("../models/JobApplication");
 const asyncHandler = require("../middlewares/asyncHandler");
 const { sendSuccess } = require("../utils/response");
+const City = require("../models/City");
+const Customer = require("../models/Customer");
+
+const getDistanceKm = (lat1, lon1, lat2, lon2) => {
+  const R = 6371;
+
+  const dLat = ((lat2 - lat1) * Math.PI) / 180;
+  const dLon = ((lon2 - lon1) * Math.PI) / 180;
+
+  const a =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos((lat1 * Math.PI) / 180) *
+    Math.cos((lat2 * Math.PI) / 180) *
+    Math.sin(dLon / 2) *
+    Math.sin(dLon / 2);
+
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+};
 
 const populateJob = (query) =>
   query
@@ -46,7 +64,6 @@ const createJob = asyncHandler(async (req, res) => {
 });
 
 const getJobs = asyncHandler(async (req, res) => {
-
   const start = new Date();
   start.setHours(0, 0, 0, 0);
 
@@ -56,20 +73,79 @@ const getJobs = asyncHandler(async (req, res) => {
   const jobs = await populateJob(
     Job.find({
       status: "Open",
-
       createdAt: {
         $gte: start,
         $lte: end,
       },
-
       $expr: {
         $lt: ["$hiredCount", "$requiredLabours"],
       },
     }).sort({ createdAt: -1 })
   );
 
+  // Guest user ko sab jobs dikhao
+  if (!req.customer?._id) {
+    return sendSuccess(res, 200, "Jobs fetched", {
+      jobs,
+    });
+  }
+
+  const customer = await Customer.findById(req.customer._id).lean();
+
+  if (!customer?.city) {
+    return sendSuccess(res, 200, "Jobs fetched", {
+      jobs,
+    });
+  }
+
+  // Saare cities ek hi baar load karo
+  const cities = await City.find().lean();
+
+  const cityMap = new Map(
+    cities.map((city) => [
+      city.name.trim().toLowerCase(),
+      city,
+    ])
+  );
+
+  const customerCity = cityMap.get(
+    customer.city.trim().toLowerCase()
+  );
+
+  if (!customerCity) {
+    return sendSuccess(res, 200, "Jobs fetched", {
+      jobs,
+    });
+  }
+
+  const nearbyJobs = [];
+
+  for (const job of jobs) {
+    if (!job.city) continue;
+
+    const jobCity = cityMap.get(
+      job.city.trim().toLowerCase()
+    );
+
+    if (!jobCity) continue;
+
+    const distance = getDistanceKm(
+      customerCity.latitude,
+      customerCity.longitude,
+      jobCity.latitude,
+      jobCity.longitude
+    );
+
+    if (distance <= 20) {
+      nearbyJobs.push({
+        ...job.toObject(),
+        distanceKm: Number(distance.toFixed(1)),
+      });
+    }
+  }
+
   return sendSuccess(res, 200, "Jobs fetched", {
-    jobs,
+    jobs: nearbyJobs,
   });
 });
 const getJobById = asyncHandler(async (req, res) => {

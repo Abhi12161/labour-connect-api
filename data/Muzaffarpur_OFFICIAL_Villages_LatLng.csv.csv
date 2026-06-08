@@ -1,0 +1,994 @@
+S.No.,Village Name,Block,District,State,Latitude,Longitude
+1,Ali Neora,Minapur,Muzaffarpur,Bihar,26.56124,85.17318
+2,Arazi Gurgawan,Minapur,Muzaffarpur,Bihar,26.54404,85.18096
+3,Astalakpur,Minapur,Muzaffarpur,Bihar,26.5648,85.18751
+4,Az Rakbe Haraiya Chhapra (1),Minapur,Muzaffarpur,Bihar,26.55265,85.16672
+5,Az Rakbe Haraiya Chhapra (2),Minapur,Muzaffarpur,Bihar,26.54722,85.19222
+6,Az Rakbe Madhaipur,Minapur,Muzaffarpur,Bihar,26.56986,85.176
+7,Az Rakbe Minapur,Minapur,Muzaffarpur,Bihar,26.5406,85.17252
+8,Bahadurpur urf BishunpurGopal,Minapur,Muzaffarpur,Bihar,26.56083,85.19597
+9,Bahbal Bazar,Minapur,Muzaffarpur,Bihar,26.56176,85.16361
+10,Bajar Munria,Minapur,Muzaffarpur,Bihar,26.53832,85.18781
+11,Bakhri,Minapur,Muzaffarpur,Bihar,26.5732,85.18571
+12,Banghara,Minapur,Muzaffarpur,Bihar,26.54512,85.16296
+13,Bara Bharthi,Minapur,Muzaffarpur,Bihar,26.55064,85.19982
+14,Bara Hassan,Minapur,Muzaffarpur,Bihar,26.57208,85.16799
+15,Barhanda,Minapur,Muzaffarpur,Bihar,26.53375,85.17725
+16,Basdeo Benua,Minapur,Muzaffarpur,Bihar,26.56916,85.1968
+17,Basdeo Chhapra (1),Minapur,Muzaffarpur,Bihar,26.55593,85.15753
+18,Basdeo Chhapra (2),Minapur,Muzaffarpur,Bihar,26.53878,85.1963
+19,Belahi Lachhi,Minapur,Muzaffarpur,Bihar,26.57847,85.17891
+20,BhagwanpurChhapra urf Khanezad,Minapur,Muzaffarpur,Bihar,26.53659,85.16464
+21,Bhao Chhapra,Minapur,Muzaffarpur,Bihar,26.55826,85.20422
+22,Bhelaipur Dhani,Minapur,Muzaffarpur,Bihar,26.56922,85.15956
+23,Bisamharpur Khutauna,Minapur,Muzaffarpur,Bihar,26.53027,85.18557
+24,Bishunpur,Minapur,Muzaffarpur,Bihar,26.57737,85.19282
+25,Bishunpur Kanth,Minapur,Muzaffarpur,Bihar,26.54703,85.15503
+26,Bishunpur Panre,Minapur,Muzaffarpur,Bihar,26.54383,85.20418
+27,Bishunpur Raje,Minapur,Muzaffarpur,Bihar,26.57995,85.16956
+28,BishunpurKeso uf Kishunpurkant,Minapur,Muzaffarpur,Bihar,26.52917,85.17071
+29,Chak Haibat urf Phulwaria,Minapur,Muzaffarpur,Bihar,26.56796,85.20465
+30,Chak Imad,Minapur,Muzaffarpur,Bihar,26.56219,85.15269
+31,Chak Jamal,Minapur,Muzaffarpur,Bihar,26.53093,85.19548
+32,Chak Rasul,Minapur,Muzaffarpur,Bihar,26.58358,85.18491
+33,Chaka Chhapra,Minapur,Muzaffarpur,Bihar,26.53701,85.15678
+34,Chakia,Minapur,Muzaffarpur,Bihar,26.55255,85.20964
+35,Chand Parna,Minapur,Muzaffarpur,Bihar,26.57709,85.15956
+36,Changal Neora,Minapur,Muzaffarpur,Bihar,26.52454,85.18015
+37,Chatursi,Minapur,Muzaffarpur,Bihar,26.57782,85.2007
+38,Chhapra Mobarak,Minapur,Muzaffarpur,Bihar,26.55212,85.14898
+39,Chhattarpatti,Minapur,Muzaffarpur,Bihar,26.53596,85.20509
+40,Darhipatti,Minapur,Muzaffarpur,Bihar,26.58632,85.1743
+41,Dariapur,Minapur,Muzaffarpur,Bihar,26.52777,85.16287
+42,Daud Chhapra (1),Minapur,Muzaffarpur,Bihar,26.56359,85.21134
+43,Daud Chhapra (2),Minapur,Muzaffarpur,Bihar,26.56998,85.1508
+44,Dharampur (1),Minapur,Muzaffarpur,Bihar,26.52393,85.19153
+45,Dharampur (2),Minapur,Muzaffarpur,Bihar,26.58599,85.19261
+46,Dharampur (3),Minapur,Muzaffarpur,Bihar,26.54053,85.14948
+47,Dharampur Narayan Urf Tehai,Minapur,Muzaffarpur,Bihar,26.54496,85.21258
+48,Dharpur,Minapur,Muzaffarpur,Bihar,26.58467,85.1626
+49,Dubaha,Minapur,Muzaffarpur,Bihar,26.52107,85.17272
+50,Dubaha Rani Khaira urf Benua,Minapur,Muzaffarpur,Bihar,26.5579,85.18408
+51,Dumaria,Minapur,Muzaffarpur,Bihar,26.55614,85.17083
+52,Faridpur,Minapur,Muzaffarpur,Bihar,26.54663,85.18713
+53,Gadai Chak,Minapur,Muzaffarpur,Bihar,26.56734,85.18045
+54,Gang Barar urf Panapur,Minapur,Muzaffarpur,Bihar,26.54539,85.17054
+55,Gangti,Minapur,Muzaffarpur,Bihar,26.55574,85.19447
+56,Ghosaut,Minapur,Muzaffarpur,Bihar,26.5648,85.16813
+57,Gosain Benua,Minapur,Muzaffarpur,Bihar,26.53893,85.18225
+58,Gosainpur Tengrahan Urf Gosain,Minapur,Muzaffarpur,Bihar,26.569,85.18964
+59,Gosaipur Charhatia,Minapur,Muzaffarpur,Bihar,26.55102,85.16272
+60,Gurgawan,Minapur,Muzaffarpur,Bihar,26.54593,85.19603
+61,Haraiya Chhapra,Minapur,Muzaffarpur,Bihar,26.57314,85.17411
+62,Harka Mansahi,Minapur,Muzaffarpur,Bihar,26.53708,85.17183
+63,Harpur Baksh,Minapur,Muzaffarpur,Bihar,26.56293,85.19868
+64,Harpur Basdeo Milki,Minapur,Muzaffarpur,Bihar,26.56196,85.16032
+65,Harsher,Minapur,Muzaffarpur,Bihar,26.53608,85.19007
+66,Hazratpur,Minapur,Muzaffarpur,Bihar,26.57627,85.18549
+67,Hemanpur urf Hamidpur,Minapur,Muzaffarpur,Bihar,26.54274,85.16114
+68,JagdhariUrf Kharia,Minapur,Muzaffarpur,Bihar,26.55122,85.20269
+69,Jhiktahi urf Madho Chhapra,Minapur,Muzaffarpur,Bihar,26.5735,85.16552
+70,Jhiktahia Minahai,Minapur,Muzaffarpur,Bihar,26.5311,85.17814
+71,Kaili,Minapur,Muzaffarpur,Bihar,26.57169,85.19786
+72,Kaili Fakirana,Minapur,Muzaffarpur,Bihar,26.55475,85.1551
+73,Kalyanpur,Minapur,Muzaffarpur,Bihar,26.53807,85.19886
+74,Karamwari,Minapur,Muzaffarpur,Bihar,26.58066,85.17749
+75,Karchaulia,Minapur,Muzaffarpur,Bihar,26.53404,85.16426
+76,Khanezadpur,Minapur,Muzaffarpur,Bihar,26.5599,85.20618
+77,Kharar,Minapur,Muzaffarpur,Bihar,26.56929,85.15704
+78,Kharika urf Bhalaipur,Minapur,Muzaffarpur,Bihar,26.52856,85.18739
+79,Khedu Chhapra,Minapur,Muzaffarpur,Bihar,26.57984,85.19259
+80,Khemaipatti,Minapur,Muzaffarpur,Bihar,26.54505,85.15357
+81,Khoja Pakri,Minapur,Muzaffarpur,Bihar,26.54435,85.20657
+82,Khomkaram Pakri,Minapur,Muzaffarpur,Bihar,26.58114,85.16744
+83,Kodaria,Minapur,Muzaffarpur,Bihar,26.52689,85.17149
+84,Lakhan Chhapra,Minapur,Muzaffarpur,Bihar,26.57017,85.20558
+85,Lautan,Minapur,Muzaffarpur,Bihar,26.56117,85.15054
+86,Madaripur Karan,Minapur,Muzaffarpur,Bihar,26.53026,85.19777
+87,Madhaipur,Minapur,Muzaffarpur,Bihar,26.58559,85.18365
+88,Madhopur Banswan Urf Belahi,Minapur,Muzaffarpur,Bihar,26.53468,85.15638
+89,Madhuban Kanti,Minapur,Muzaffarpur,Bihar,26.55402,85.21148
+90,Madhubani,Minapur,Muzaffarpur,Bihar,26.57722,85.15721
+91,Mahdaya,Minapur,Muzaffarpur,Bihar,26.52288,85.18181
+92,Majhauli,Minapur,Muzaffarpur,Bihar,26.58016,85.20057
+93,Majhaur,Minapur,Muzaffarpur,Bihar,26.55029,85.14752
+94,Majlis Madho urf Chhapra,Minapur,Muzaffarpur,Bihar,26.53635,85.2074
+95,Majlis Prannath Urf Kharhar,Minapur,Muzaffarpur,Bihar,26.58757,85.17233
+96,Maksudpur,Minapur,Muzaffarpur,Bihar,26.52553,85.16351
+97,Mangan urf Chhapra Manik,Minapur,Muzaffarpur,Bihar,26.56569,85.21237
+98,Manikpur (1),Minapur,Muzaffarpur,Bihar,26.56911,85.14863
+99,Manikpur (2),Minapur,Muzaffarpur,Bihar,26.52313,85.19372
+100,Methunapur,Minapur,Muzaffarpur,Bihar,26.55972,85.18164
+101,Minapur,Minapur,Muzaffarpur,Bihar,26.55062,85.17186
+102,Mohanpur,Minapur,Muzaffarpur,Bihar,26.5523,85.19066
+103,Mothahan Fakirana,Minapur,Muzaffarpur,Bihar,26.56532,85.17322
+104,Mothahan Mal,Minapur,Muzaffarpur,Bihar,26.54169,85.17785
+105,Mursand,Minapur,Muzaffarpur,Bihar,26.56399,85.19136
+106,Mursandi Ratan,Minapur,Muzaffarpur,Bihar,26.55611,85.16465
+107,Musa Chak,Minapur,Muzaffarpur,Bihar,26.5432,85.19114
+108,Musalmani Chak,Minapur,Muzaffarpur,Bihar,26.572,85.17974
+109,Mustafaganj,Minapur,Muzaffarpur,Bihar,26.54175,85.16822
+110,Nandna,Minapur,Muzaffarpur,Bihar,26.55689,85.19832
+111,Nehalpur,Minapur,Muzaffarpur,Bihar,26.56637,85.16469
+112,Neknam Chak,Minapur,Muzaffarpur,Bihar,26.53566,85.18372
+113,Nur Chhapra,Minapur,Muzaffarpur,Bihar,26.57229,85.19063
+114,Paigambarpur,Minapur,Muzaffarpur,Bihar,26.54928,85.15993
+115,Paigambarpur Tola Ramnagar,Minapur,Muzaffarpur,Bihar,26.54541,85.19917
+116,Pakhnaha Jitwar,Minapur,Muzaffarpur,Bihar,26.57552,85.17215
+117,Pakhnaha Pirwara,Minapur,Muzaffarpur,Bihar,26.53408,85.17173
+118,Paleza urf Bishunpur Paleza,Minapur,Muzaffarpur,Bihar,26.56506,85.20068
+119,Parsauni Desh,Minapur,Muzaffarpur,Bihar,26.56169,85.15748
+120,Parsauni Masalik,Minapur,Muzaffarpur,Bihar,26.53444,85.19233
+121,Pati Masalik,Minapur,Muzaffarpur,Bihar,26.57895,85.18489
+122,Pati Mohammadpur,Minapur,Muzaffarpur,Bihar,26.54037,85.15985
+123,Phulwaria,Minapur,Muzaffarpur,Bihar,26.55212,85.20518
+124,Pipra Ghaus,Minapur,Muzaffarpur,Bihar,26.57446,85.16309
+125,Pipra Nath,Minapur,Muzaffarpur,Bihar,26.5288,85.17931
+126,Pokhraira Nath,Minapur,Muzaffarpur,Bihar,26.57416,85.1985
+127,Rampur Basdeo,Minapur,Muzaffarpur,Bihar,26.55334,85.15301
+128,Rampur Bishunpur,Minapur,Muzaffarpur,Bihar,26.53773,85.20134
+129,Rampur Jiu,Minapur,Muzaffarpur,Bihar,26.58254,85.17587
+130,Rasulpur Gangajal,Minapur,Muzaffarpur,Bihar,26.53158,85.16423
+131,Rasulpur Nath,Minapur,Muzaffarpur,Bihar,26.5617,85.20783
+132,Ratwara Chandna,Minapur,Muzaffarpur,Bihar,26.56903,85.15462
+133,Ratwara Kali,Minapur,Muzaffarpur,Bihar,26.52716,85.18935
+134,Ratwara Lakshman,Minapur,Muzaffarpur,Bihar,26.58218,85.19206
+135,Ratwara Mahanand,Minapur,Muzaffarpur,Bihar,26.54296,85.15241
+136,Rewa Chhapra,Minapur,Muzaffarpur,Bihar,26.54513,85.20881
+137,Rohua,Minapur,Muzaffarpur,Bihar,26.58205,85.16525
+138,Rupan,Minapur,Muzaffarpur,Bihar,26.52476,85.17252
+139,Rupanpatti,Minapur,Muzaffarpur,Bihar,26.57243,85.20623
+140,Sahebpur,Minapur,Muzaffarpur,Bihar,26.55991,85.14855
+141,Saraiya Chak Mustafa,Minapur,Muzaffarpur,Bihar,26.52987,85.20008
+142,Sarhan Mafi,Minapur,Muzaffarpur,Bihar,26.58742,85.18219
+143,Sarhan Malak,Minapur,Muzaffarpur,Bihar,26.53235,85.15625
+144,Sehna,Minapur,Muzaffarpur,Bihar,26.55567,85.21314
+145,Semra,Minapur,Muzaffarpur,Bihar,26.5771,85.15488
+146,Sheopur,Minapur,Muzaffarpur,Bihar,26.52142,85.18363
+147,Sitamarhi Mafi,Minapur,Muzaffarpur,Bihar,26.58246,85.20019
+148,Sukhdev Nagar,Minapur,Muzaffarpur,Bihar,26.54833,85.14626
+149,Tirpatti Rampur,Minapur,Muzaffarpur,Bihar,26.53697,85.20965
+150,Tirpatti Roshanpur,Minapur,Muzaffarpur,Bihar,26.5598,85.17861
+151,Turki,Minapur,Muzaffarpur,Bihar,26.54671,85.17591
+152,Vishnupur Dixit,Minapur,Muzaffarpur,Bihar,26.55898,85.19025
+153,Zoraha,Minapur,Muzaffarpur,Bihar,26.55948,85.16849
+154,Adalpur urf Abdulpur,Motipur (Baruraj),Muzaffarpur,Bihar,26.2929,85.13596
+155,Ahiraulia,Motipur (Baruraj),Muzaffarpur,Bihar,26.31891,85.13406
+156,Akhtiarpur,Motipur (Baruraj),Muzaffarpur,Bihar,26.29702,85.11684
+157,Andaul urf BishunpurMandal,Motipur (Baruraj),Muzaffarpur,Bihar,26.30184,85.14591
+158,Aswari Banjaria,Motipur (Baruraj),Muzaffarpur,Bihar,26.31871,85.11994
+159,Babhraulia,Motipur (Baruraj),Muzaffarpur,Bihar,26.28738,85.12808
+160,Baburban,Motipur (Baruraj),Muzaffarpur,Bihar,26.31715,85.14384
+161,Badwaria urf Pipra,Motipur (Baruraj),Muzaffarpur,Bihar,26.3054,85.11093
+162,Baghaura urf Jalalpur,Motipur (Baruraj),Muzaffarpur,Bihar,26.29139,85.14424
+163,Bakhri,Motipur (Baruraj),Muzaffarpur,Bihar,26.32525,85.12865
+164,Bangra Firoz,Motipur (Baruraj),Muzaffarpur,Bihar,26.28871,85.11695
+165,Bangra Patti,Motipur (Baruraj),Muzaffarpur,Bihar,26.30829,85.15118
+166,Bangri,Motipur (Baruraj),Muzaffarpur,Bihar,26.31718,85.11172
+167,Bans Ghatta,Motipur (Baruraj),Muzaffarpur,Bihar,26.28316,85.13538
+168,Bara Baijnath,Motipur (Baruraj),Muzaffarpur,Bihar,26.32518,85.14103
+169,Barhampur Karman,Motipur (Baruraj),Muzaffarpur,Bihar,26.29741,85.10777
+170,Bariarpur urf Bazidpur,Motipur (Baruraj),Muzaffarpur,Bihar,26.29539,85.15196
+171,Baruraj,Motipur (Baruraj),Muzaffarpur,Bihar,26.32735,85.12011
+172,Bathnaha urf Madhopur Ram,Motipur (Baruraj),Muzaffarpur,Bihar,26.2814,85.12205
+173,Bhanpur Barewa urf Koirgawan K,Motipur (Baruraj),Muzaffarpur,Bihar,26.31724,85.15219
+174,Bhataulia,Motipur (Baruraj),Muzaffarpur,Bihar,26.31107,85.10494
+175,Bhemriahi urf Rampur Bhemriahi,Motipur (Baruraj),Muzaffarpur,Bihar,26.28324,85.14462
+176,Birji,Motipur (Baruraj),Muzaffarpur,Bihar,26.33133,85.13398
+177,Bishunpur Dharam,Motipur (Baruraj),Muzaffarpur,Bihar,26.28801,85.10896
+178,Bishunpur Horil,Motipur (Baruraj),Muzaffarpur,Bihar,26.30329,85.1574
+179,Bishunpur Lakhansen,Motipur (Baruraj),Muzaffarpur,Bihar,26.32505,85.11068
+180,Bishunpur Manohar Urf Manohar,Motipur (Baruraj),Muzaffarpur,Bihar,26.27677,85.13071
+181,Boari,Motipur (Baruraj),Muzaffarpur,Bihar,26.32658,85.1488
+182,Boaria,Motipur (Baruraj),Muzaffarpur,Bihar,26.30174,85.10118
+183,Bulbulwa urf Chhapra Chintaman,Motipur (Baruraj),Muzaffarpur,Bihar,26.28772,85.15375
+184,Chainpur,Motipur (Baruraj),Muzaffarpur,Bihar,26.33414,85.12409
+185,Chakwa,Motipur (Baruraj),Muzaffarpur,Bihar,26.2792,85.11449
+186,Chhapra Mohan,Motipur (Baruraj),Muzaffarpur,Bihar,26.31364,85.1592
+187,Chhapra Tulsi,Motipur (Baruraj),Muzaffarpur,Bihar,26.31851,85.10231
+188,Chhatarpatti,Motipur (Baruraj),Muzaffarpur,Bihar,26.27602,85.14142
+189,Chorghatta,Motipur (Baruraj),Muzaffarpur,Bihar,26.33441,85.14128
+190,Chulhai Bishunpur,Motipur (Baruraj),Muzaffarpur,Bihar,26.29079,85.10152
+191,Damodarpur,Motipur (Baruraj),Muzaffarpur,Bihar,26.29615,85.16092
+192,Dhanauti,Motipur (Baruraj),Muzaffarpur,Bihar,26.3327,85.113
+193,Dharampur Ishak,Motipur (Baruraj),Muzaffarpur,Bihar,26.27278,85.12376
+194,Dichhtaulia,Motipur (Baruraj),Muzaffarpur,Bihar,26.32474,85.15662
+195,Donra Chhapra,Motipur (Baruraj),Muzaffarpur,Bihar,26.30846,85.09672
+196,Dumaria,Motipur (Baruraj),Muzaffarpur,Bihar,26.27973,85.15241
+197,Ekwalia,Motipur (Baruraj),Muzaffarpur,Bihar,26.33908,85.13055
+198,Gadaipur Ghauspur,Motipur (Baruraj),Muzaffarpur,Bihar,26.28002,85.10636
+199,Gokhula,Motipur (Baruraj),Muzaffarpur,Bihar,26.30748,85.16461
+200,Gopalpur Gopil,Motipur (Baruraj),Muzaffarpur,Bihar,26.30811,85.12608
+201,Gopinathpur (1),Motipur (Baruraj),Muzaffarpur,Bihar,26.29587,85.13146
+202,Gopinathpur (2),Motipur (Baruraj),Muzaffarpur,Bihar,26.31419,85.13605
+203,Gosainpur,Motipur (Baruraj),Muzaffarpur,Bihar,26.30199,85.11802
+204,Hardi,Motipur (Baruraj),Muzaffarpur,Bihar,26.29859,85.14187
+205,Harnahi,Motipur (Baruraj),Muzaffarpur,Bihar,26.31869,85.12525
+206,Harpur,Motipur (Baruraj),Muzaffarpur,Bihar,26.29087,85.1239
+207,Hathilwa urf Chhapra Hathil,Motipur (Baruraj),Muzaffarpur,Bihar,26.31164,85.1448
+208,Ibrahimpur,Motipur (Baruraj),Muzaffarpur,Bihar,26.31035,85.11386
+209,Jagarnathpur,Motipur (Baruraj),Muzaffarpur,Bihar,26.28952,85.13864
+210,Jagdewan Chhapra,Motipur (Baruraj),Muzaffarpur,Bihar,26.32292,85.13424
+211,Jahangirpur,Motipur (Baruraj),Muzaffarpur,Bihar,26.29428,85.11422
+212,Jamalpur,Motipur (Baruraj),Muzaffarpur,Bihar,26.30216,85.14949
+213,Jasauli,Motipur (Baruraj),Muzaffarpur,Bihar,26.32073,85.11717
+214,Jathwalia,Motipur (Baruraj),Muzaffarpur,Bihar,26.28416,85.1288
+215,Kaithaulia,Motipur (Baruraj),Muzaffarpur,Bihar,26.31995,85.14536
+216,Kalyanpur Haraulia,Motipur (Baruraj),Muzaffarpur,Bihar,26.30434,85.10804
+217,Kamalpur Bithraul,Motipur (Baruraj),Muzaffarpur,Bihar,26.29031,85.14704
+218,Kathaia,Motipur (Baruraj),Muzaffarpur,Bihar,26.32784,85.1273
+219,Khartari Mahanand,Motipur (Baruraj),Muzaffarpur,Bihar,26.28593,85.11627
+220,Khiro Chhapra,Motipur (Baruraj),Muzaffarpur,Bihar,26.30989,85.15347
+221,Korra,Motipur (Baruraj),Muzaffarpur,Bihar,26.31749,85.10899
+222,Kuahi,Motipur (Baruraj),Muzaffarpur,Bihar,26.28116,85.13719
+223,Kuria,Motipur (Baruraj),Muzaffarpur,Bihar,26.32784,85.141
+224,Kusahi urf Jagdishpur Chamman,Motipur (Baruraj),Muzaffarpur,Bihar,26.29543,85.10606
+225,Lohi NawalpurAz Rakbe Jasauli,Motipur (Baruraj),Muzaffarpur,Bihar,26.29573,85.15452
+226,Madarpur,Motipur (Baruraj),Muzaffarpur,Bihar,26.32877,85.11799
+227,Madhopur Madho,Motipur (Baruraj),Muzaffarpur,Bihar,26.27896,85.12269
+228,Mahamadpur Balmi,Motipur (Baruraj),Muzaffarpur,Bihar,26.31947,85.15332
+229,Mahamadpur Ganga,Motipur (Baruraj),Muzaffarpur,Bihar,26.31016,85.10263
+230,Mahamadpur Mahamda,Motipur (Baruraj),Muzaffarpur,Bihar,26.2824,85.14693
+231,Mahamadpur Raju,Motipur (Baruraj),Muzaffarpur,Bihar,26.33348,85.13282
+232,Mahima Gopinath,Motipur (Baruraj),Muzaffarpur,Bihar,26.28565,85.1084
+233,Mahual,Motipur (Baruraj),Muzaffarpur,Bihar,26.30467,85.15937
+234,Malikana urf Bagahi,Motipur (Baruraj),Muzaffarpur,Bihar,26.32533,85.1083
+235,Manguraha Tajpur,Motipur (Baruraj),Muzaffarpur,Bihar,26.27499,85.1323
+236,Manikpur (1),Motipur (Baruraj),Muzaffarpur,Bihar,26.32896,85.1488
+237,Manikpur (2),Motipur (Baruraj),Muzaffarpur,Bihar,26.29997,85.09961
+238,Manpura,Motipur (Baruraj),Muzaffarpur,Bihar,26.28799,85.1561
+239,Mansurpur,Motipur (Baruraj),Muzaffarpur,Bihar,26.3355,85.12216
+240,Manua,Motipur (Baruraj),Muzaffarpur,Bihar,26.27691,85.11502
+241,Math Lachhuman,Motipur (Baruraj),Muzaffarpur,Bihar,26.3157,85.16033
+242,Mathiha,Motipur (Baruraj),Muzaffarpur,Bihar,26.31773,85.1001
+243,Meghua,Motipur (Baruraj),Muzaffarpur,Bihar,26.27512,85.14358
+244,Minapur Raipur Kanti,Motipur (Baruraj),Muzaffarpur,Bihar,26.33651,85.14027
+245,Mithanpura Siri Ram,Motipur (Baruraj),Muzaffarpur,Bihar,26.28854,85.10087
+246,Mohiuddinpur,Motipur (Baruraj),Muzaffarpur,Bihar,26.29738,85.16291
+247,Mursandi,Motipur (Baruraj),Muzaffarpur,Bihar,26.3331,85.11071
+248,Mushari Paraspur,Motipur (Baruraj),Muzaffarpur,Bihar,26.27094,85.1252
+249,Narayanpur Kusai,Motipur (Baruraj),Muzaffarpur,Bihar,26.32707,85.15678
+250,Nariar,Motipur (Baruraj),Muzaffarpur,Bihar,26.30526,85.12501
+251,Narwara (1),Motipur (Baruraj),Muzaffarpur,Bihar,26.29841,85.13648
+252,Narwara (2),Motipur (Baruraj),Muzaffarpur,Bihar,26.31599,85.12961
+253,Nawalpur Goodhwara,Motipur (Baruraj),Muzaffarpur,Bihar,26.29561,85.12198
+254,Pachrukhi,Motipur (Baruraj),Muzaffarpur,Bihar,26.30665,85.14338
+255,Pagahia Raiti,Motipur (Baruraj),Muzaffarpur,Bihar,26.3134,85.1182
+256,Pakri,Motipur (Baruraj),Muzaffarpur,Bihar,26.28995,85.13321
+257,Pana Chhapra urf Sanrha Sumar,Motipur (Baruraj),Muzaffarpur,Bihar,26.31899,85.13822
+258,Parsauli,Motipur (Baruraj),Muzaffarpur,Bihar,26.30001,85.11375
+259,Pirthu,Motipur (Baruraj),Muzaffarpur,Bihar,26.29739,85.14601
+260,Prannathpur Urf Chhapra Hazrat,Motipur (Baruraj),Muzaffarpur,Bihar,26.32207,85.12308
+261,Rajpur Soneswar,Motipur (Baruraj),Muzaffarpur,Bihar,26.28713,85.12335
+262,Rampur Satu,Motipur (Baruraj),Muzaffarpur,Bihar,26.31397,85.14754
+263,Rampur Sukhar,Motipur (Baruraj),Muzaffarpur,Bihar,26.31039,85.11043
+264,Rasauli,Motipur (Baruraj),Muzaffarpur,Bihar,26.28732,85.1411
+265,Rasulpur Lakhan,Motipur (Baruraj),Muzaffarpur,Bihar,26.32608,85.13386
+266,Rupan Pattikhurd,Motipur (Baruraj),Muzaffarpur,Bihar,26.29174,85.11248
+267,Sahebpur Muktasar,Motipur (Baruraj),Muzaffarpur,Bihar,26.3029,85.15239
+268,Santosh Chhapra,Motipur (Baruraj),Muzaffarpur,Bihar,26.32205,85.11457
+269,Sernaha,Motipur (Baruraj),Muzaffarpur,Bihar,26.28151,85.12986
+270,Sheikhpur Korauna,Motipur (Baruraj),Muzaffarpur,Bihar,26.32258,85.1463
+271,Sherpur Bhagwat,Motipur (Baruraj),Muzaffarpur,Bihar,26.30301,85.10564
+272,Siddhaur,Motipur (Baruraj),Muzaffarpur,Bihar,26.28973,85.14967
+273,Sikhwan urf Sikhauwa,Motipur (Baruraj),Muzaffarpur,Bihar,26.32999,85.12574
+274,Sima Ramnath,Motipur (Baruraj),Muzaffarpur,Bihar,26.28333,85.11603
+275,Simra Rampur,Motipur (Baruraj),Muzaffarpur,Bihar,26.31165,85.15536
+276,Sirmastpur,Motipur (Baruraj),Muzaffarpur,Bihar,26.31742,85.10644
+277,Sisodhan,Motipur (Baruraj),Muzaffarpur,Bihar,26.27954,85.13912
+278,Sonapur Mafi,Motipur (Baruraj),Muzaffarpur,Bihar,26.33031,85.14063
+279,Sonapur Malak,Motipur (Baruraj),Muzaffarpur,Bihar,26.29335,85.10471
+280,Sukhpur,Motipur (Baruraj),Muzaffarpur,Bihar,26.29639,85.15689
+281,Takipur,Motipur (Baruraj),Muzaffarpur,Bihar,26.32985,85.1158
+282,Tilak Chhapra,Motipur (Baruraj),Muzaffarpur,Bihar,26.27671,85.1236
+283,Tilakpur,Motipur (Baruraj),Muzaffarpur,Bihar,26.32175,85.15413
+284,Tirpatti Bishunpur,Motipur (Baruraj),Muzaffarpur,Bihar,26.309,85.10053
+285,Vishnupur Patti,Motipur (Baruraj),Muzaffarpur,Bihar,26.28187,85.14926
+286,Akurahan Harihar,Kanti,Muzaffarpur,Bihar,26.11242,85.38244
+287,Akurahan Khargi,Kanti,Muzaffarpur,Bihar,26.06029,85.35914
+288,Alahdadpur,Kanti,Muzaffarpur,Bihar,26.08325,85.41213
+289,Arara urf Harpur Hari,Kanti,Muzaffarpur,Bihar,26.10232,85.35694
+290,Arizpur,Kanti,Muzaffarpur,Bihar,26.05043,85.38506
+291,Bahuara urf Harpur Hiraman,Kanti,Muzaffarpur,Bihar,26.10829,85.39953
+292,Bairia,Kanti,Muzaffarpur,Bihar,26.07506,85.34925
+293,Balha,Kanti,Muzaffarpur,Bihar,26.06551,85.40938
+294,Bangra,Kanti,Muzaffarpur,Bihar,26.11363,85.37112
+295,Bangra Hardas,Kanti,Muzaffarpur,Bihar,26.05171,85.36678
+296,Bangra Tola Dayal Thakur,Kanti,Muzaffarpur,Bihar,26.09485,85.41223
+297,Bangrapatti Sain,Kanti,Muzaffarpur,Bihar,26.09373,85.34899
+298,Bariarpur,Kanti,Muzaffarpur,Bihar,26.05146,85.39682
+299,Barmatpur,Kanti,Muzaffarpur,Bihar,26.1155,85.39004
+300,Basantpur Kanti,Kanti,Muzaffarpur,Bihar,26.07932,85.37678
+301,Bathnaha,Kanti,Muzaffarpur,Bihar,26.08038,85.3901
+302,Bhagwanpur,Kanti,Muzaffarpur,Bihar,26.09074,85.37432
+303,Bheria urf Chhapra Deonandan,Kanti,Muzaffarpur,Bihar,26.0697,85.37991
+304,Bheriahi,Kanti,Muzaffarpur,Bihar,26.0911,85.39095
+305,Bheriahi Narayan,Kanti,Muzaffarpur,Bihar,26.08202,85.36651
+306,Bheriahi Salona,Kanti,Muzaffarpur,Bihar,26.07159,85.39234
+307,Bhimalpur,Kanti,Muzaffarpur,Bihar,26.09816,85.3796
+308,Birpur,Kanti,Muzaffarpur,Bihar,26.06852,85.37064
+309,Bishunpur Ganga Az_Rakbe,Kanti,Muzaffarpur,Bihar,26.08507,85.39846
+310,Bishunpur Ganga urf Baikatpur,Kanti,Muzaffarpur,Bihar,26.0919,85.36547
+311,Bishunpur Mahanand,Kanti,Muzaffarpur,Bihar,26.06358,85.38593
+312,Bishunpur Tola Pirmia,Kanti,Muzaffarpur,Bihar,26.09947,85.3901
+313,Chak Murmur,Kanti,Muzaffarpur,Bihar,26.07506,85.36193
+314,Chhapra Dharampur Jadu,Kanti,Muzaffarpur,Bihar,26.07402,85.40029
+315,Chhapra Madho,Kanti,Muzaffarpur,Bihar,26.10142,85.37194
+316,Chhapra Manorath,Kanti,Muzaffarpur,Bihar,26.06104,85.3744
+317,Chhattar Patti,Kanti,Muzaffarpur,Bihar,26.09326,85.40047
+318,Dadar Kolhua,Kanti,Muzaffarpur,Bihar,26.08696,85.35854
+319,Dhamauli Ramnath,Kanti,Muzaffarpur,Bihar,26.06277,85.39449
+320,Ghausi Chhapra,Kanti,Muzaffarpur,Bihar,26.10577,85.3841
+321,Gopalpur,Kanti,Muzaffarpur,Bihar,26.06627,85.36229
+322,Gosainpur,Kanti,Muzaffarpur,Bihar,26.08095,85.40588
+323,Harchanda,Kanti,Muzaffarpur,Bihar,26.0999,85.36305
+324,Hardaspur,Kanti,Muzaffarpur,Bihar,26.05624,85.38217
+325,Harpur Ganesh,Kanti,Muzaffarpur,Bihar,26.10211,85.39781
+326,Hichra,Kanti,Muzaffarpur,Bihar,26.07847,85.3546
+327,Jalgaon urf Phul Kahan Subodh,Kanti,Muzaffarpur,Bihar,26.06653,85.40319
+328,Jamala Rasulpur Shekh,Kanti,Muzaffarpur,Bihar,26.10879,85.375
+329,Jasoda Math urf Rampur Harihar,Kanti,Muzaffarpur,Bihar,26.05785,85.36713
+330,Jhiktahi Madhuban,Kanti,Muzaffarpur,Bihar,26.09056,85.40791
+331,Kabilpur,Kanti,Muzaffarpur,Bihar,26.09403,85.35503
+332,Kanti Khurd,Kanti,Muzaffarpur,Bihar,26.05524,85.39217
+333,Kanwa,Kanti,Muzaffarpur,Bihar,26.10963,85.39097
+334,Khajuri,Kanti,Muzaffarpur,Bihar,26.06819,85.35466
+335,Kusi urf Harpur (1),Kanti,Muzaffarpur,Bihar,26.0743,85.4101
+336,Kusi urf Harpur (2),Kanti,Muzaffarpur,Bihar,26.10763,85.36455
+337,Lashkaripur,Kanti,Muzaffarpur,Bihar,26.05164,85.37575
+338,Madhopur Dulham urf Dhebahan,Kanti,Muzaffarpur,Bihar,26.10105,85.40565
+339,Madhopur Machhia,Kanti,Muzaffarpur,Bihar,26.08463,85.34961
+340,Madhuban Jagdish,Kanti,Muzaffarpur,Bihar,26.05861,85.4026
+341,Madhukar Chhapra,Kanti,Muzaffarpur,Bihar,26.11417,85.38087
+342,Mahartha,Kanti,Muzaffarpur,Bihar,26.05795,85.35915
+343,Maisahan,Kanti,Muzaffarpur,Bihar,26.085,85.41368
+344,Manikpur Narotam,Kanti,Muzaffarpur,Bihar,26.10206,85.35462
+345,Manpura Kanti,Kanti,Muzaffarpur,Bihar,26.04907,85.38696
+346,Mirzapur,Kanti,Muzaffarpur,Bihar,26.11057,85.39901
+347,Mithan Sarai,Kanti,Muzaffarpur,Bihar,26.07302,85.34812
+348,Mobarakpur,Kanti,Muzaffarpur,Bihar,26.06627,85.41159
+349,Muhammadpur Kanti,Kanti,Muzaffarpur,Bihar,26.11455,85.36897
+350,Mustafapur,Kanti,Muzaffarpur,Bihar,26.07737,85.37911
+351,Narayanpur,Kanti,Muzaffarpur,Bihar,26.08595,85.38936
+352,Narsanda (1),Kanti,Muzaffarpur,Bihar,26.08525,85.37049
+353,Narsanda (2),Kanti,Muzaffarpur,Bihar,26.07134,85.38723
+354,Nurullahpur,Kanti,Muzaffarpur,Bihar,26.09518,85.38384
+355,Pach Pakri,Kanti,Muzaffarpur,Bihar,26.07362,85.36918
+356,Paighambarpur Kolhua,Kanti,Muzaffarpur,Bihar,26.08008,85.39627
+357,Pakari,Kanti,Muzaffarpur,Bihar,26.09436,85.37049
+358,Panapur Haveli,Kanti,Muzaffarpur,Bihar,26.06501,85.38037
+359,Panapur Kariat,Kanti,Muzaffarpur,Bihar,26.09462,85.39345
+360,Panapur Khurd,Kanti,Muzaffarpur,Bihar,26.08107,85.36261
+361,Patti Mir Saheb,Kanti,Muzaffarpur,Bihar,26.06984,85.39569
+362,Patti Sain Brij Lal,Kanti,Muzaffarpur,Bihar,26.10151,85.37829
+363,Patti Sain Chhapra Darianand,Kanti,Muzaffarpur,Bihar,26.06529,85.36948
+364,Patti Sain Tola Ram Rai,Kanti,Muzaffarpur,Bihar,26.08666,85.40135
+365,Pemi Chhapra,Kanti,Muzaffarpur,Bihar,26.09258,85.36236
+366,PemiChhapra,Kanti,Muzaffarpur,Bihar,26.0611,85.38776
+367,Phul Kahan Gobind,Kanti,Muzaffarpur,Bihar,26.10246,85.39035
+368,Phul Kahan Godai,Kanti,Muzaffarpur,Bihar,26.07303,85.35982
+369,Phul Kahan Mani,Kanti,Muzaffarpur,Bihar,26.07414,85.40314
+370,Phul Kahan Singar,Kanti,Muzaffarpur,Bihar,26.10318,85.36976
+371,Pokhraira,Kanti,Muzaffarpur,Bihar,26.05834,85.37487
+372,Rampur Lakhmi,Kanti,Muzaffarpur,Bihar,26.09555,85.40189
+373,Rasulpur Kariat,Kanti,Muzaffarpur,Bihar,26.08619,85.356
+374,Ratanpura,Kanti,Muzaffarpur,Bihar,26.06168,85.39687
+375,Roshanpur,Kanti,Muzaffarpur,Bihar,26.10813,85.38306
+376,Sadalpur,Kanti,Muzaffarpur,Bihar,26.06383,85.36152
+377,Saidpur,Kanti,Muzaffarpur,Bihar,26.08224,85.40804
+378,Sain Patti Shiu Parsan Singh,Kanti,Muzaffarpur,Bihar,26.10036,85.36059
+379,Salempur Dhab,Kanti,Muzaffarpur,Bihar,26.05428,85.38368
+380,Serukahi,Kanti,Muzaffarpur,Bihar,26.10456,85.39798
+381,Shahbazpur,Kanti,Muzaffarpur,Bihar,26.07676,85.35286
+382,Shahpur,Kanti,Muzaffarpur,Bihar,26.06666,85.40561
+383,Shampur Bhoj,Kanti,Muzaffarpur,Bihar,26.1103,85.37312
+384,Sherpur urf Mahammadpur Mustak,Kanti,Muzaffarpur,Bihar,26.05549,85.36753
+385,Sirna urf Bheriahi,Kanti,Muzaffarpur,Bihar,26.09258,85.40918
+386,Sirsian,Kanti,Muzaffarpur,Bihar,26.09337,85.35274
+387,Sirsian Buzurg,Kanti,Muzaffarpur,Bihar,26.05422,85.39431
+388,Sonbarsa,Kanti,Muzaffarpur,Bihar,26.11181,85.39005
+389,Suratpur,Kanti,Muzaffarpur,Bihar,26.06596,85.35389
+390,Tola Chand Pande urf Bherahi,Kanti,Muzaffarpur,Bihar,26.07545,85.41215
+391,Adam Chhapra,Bochaha,Muzaffarpur,Bihar,25.91815,85.63226
+392,Adhinchak,Bochaha,Muzaffarpur,Bihar,25.85974,85.64712
+393,Adi Gopalpur,Bochaha,Muzaffarpur,Bihar,25.91338,85.6759
+394,Alahdadpur,Bochaha,Muzaffarpur,Bihar,25.89307,85.61787
+395,Athar Bansman,Bochaha,Muzaffarpur,Bihar,25.86861,85.67493
+396,Bahlolpur,Bochaha,Muzaffarpur,Bihar,25.92572,85.64913
+397,Bahrampur,Bochaha,Muzaffarpur,Bihar,25.86563,85.6294
+398,Bakhri Barkhurdar,Bochaha,Muzaffarpur,Bihar,25.8969,85.68504
+399,Balia Indarjit,Bochaha,Muzaffarpur,Bihar,25.91156,85.62234
+400,Balthi Rasulpur,Bochaha,Muzaffarpur,Bihar,25.88713,85.65214
+401,Barheta Ballam,Bochaha,Muzaffarpur,Bihar,25.90006,85.65552
+402,Barheta Ganga Ram,Bochaha,Muzaffarpur,Bihar,25.88856,85.64055
+403,Basauli Babu Ram,Bochaha,Muzaffarpur,Bihar,25.88692,85.66226
+404,Basauli Himat Singh (1),Bochaha,Muzaffarpur,Bihar,25.90439,85.64568
+405,Basauli HimatSingh (2),Bochaha,Muzaffarpur,Bihar,25.87832,85.64622
+406,Basauli Jagarnath,Bochaha,Muzaffarpur,Bihar,25.89929,85.66456
+407,Basauli Nankar,Bochaha,Muzaffarpur,Bihar,25.89599,85.63527
+408,Bazidpur,Bochaha,Muzaffarpur,Bihar,25.87779,85.66032
+409,Bazidpur Majhauli,Bochaha,Muzaffarpur,Bihar,25.9095,85.65384
+410,Bazidpur Ram Das,Bochaha,Muzaffarpur,Bihar,25.88059,85.63654
+411,Bazidpur urf Majhauli,Bochaha,Muzaffarpur,Bihar,25.8906,85.67002
+412,Bazidpur urf Misraulia,Bochaha,Muzaffarpur,Bihar,25.90634,85.63749
+413,Berai Hardas,Bochaha,Muzaffarpur,Bihar,25.8717,85.65128
+414,Bhagwanpur (1),Bochaha,Muzaffarpur,Bihar,25.90759,85.66488
+415,Bhagwanpur (2),Bochaha,Muzaffarpur,Bihar,25.88983,85.62968
+416,Bhagwanpur Ghoncha,Bochaha,Muzaffarpur,Bihar,25.87888,85.66862
+417,Bhatni,Bochaha,Muzaffarpur,Bihar,25.91409,85.64677
+418,Bhoraha urf Bhagwanpur Kutub,Bochaha,Muzaffarpur,Bihar,25.87242,85.63893
+419,Bhusahi,Bochaha,Muzaffarpur,Bihar,25.89842,85.6736
+420,Bhutan,Bochaha,Muzaffarpur,Bihar,25.90275,85.62957
+421,Bishunpur Damodar urf Mahpur,Bochaha,Muzaffarpur,Bihar,25.86916,85.65971
+422,Bishunpur Jagdish,Bochaha,Muzaffarpur,Bihar,25.91515,85.66018
+423,Bishunpur Khetal,Bochaha,Muzaffarpur,Bihar,25.88093,85.6282
+424,Bishunpur Man,Bochaha,Muzaffarpur,Bihar,25.88463,85.67571
+425,BishunpurNarayan urf RampurSir,Bochaha,Muzaffarpur,Bihar,25.91449,85.63754
+426,Borwara (1),Bochaha,Muzaffarpur,Bihar,25.86591,85.64565
+427,Borwara (2),Bochaha,Muzaffarpur,Bihar,25.90786,85.6729
+428,Buchauli urf Paranpur,Bochaha,Muzaffarpur,Bihar,25.89514,85.62373
+429,Burhnagara,Bochaha,Muzaffarpur,Bihar,25.87096,85.66924
+430,Chak Balthi,Bochaha,Muzaffarpur,Bihar,25.92023,85.65177
+431,Chak Habibullah urf ChakBullah,Bochaha,Muzaffarpur,Bihar,25.87143,85.6311
+432,Chak Helal,Bochaha,Muzaffarpur,Bihar,25.89375,85.67995
+433,Chak Mundi,Bochaha,Muzaffarpur,Bihar,25.9105,85.62819
+434,Chak Nuran,Bochaha,Muzaffarpur,Bihar,25.86259,85.65538
+435,Chak Roshan,Bochaha,Muzaffarpur,Bihar,25.91695,85.66784
+436,Chak urf ChakAbdul Rahman,Bochaha,Muzaffarpur,Bihar,25.8849,85.62138
+437,Chanpur Bharath,Bochaha,Muzaffarpur,Bihar,25.87706,85.67794
+438,Chaumukh,Bochaha,Muzaffarpur,Bihar,25.92154,85.64111
+439,Chaupar Madan,Bochaha,Muzaffarpur,Bihar,25.86322,85.6382
+440,Dahi Ban,Bochaha,Muzaffarpur,Bihar,25.9047,85.68019
+441,Deogan,Bochaha,Muzaffarpur,Bihar,25.90246,85.62058
+442,Dharampur,Bochaha,Muzaffarpur,Bihar,25.86345,85.66652
+443,Etwarpur Jointi,Bochaha,Muzaffarpur,Bihar,25.92385,85.65892
+444,Etwarpur Taj,Bochaha,Muzaffarpur,Bihar,25.87368,85.62338
+445,Fatehpur,Bochaha,Muzaffarpur,Bihar,25.8868,85.68405
+446,Gidha urf Maisaha Farrukhpur,Bochaha,Muzaffarpur,Bihar,25.91841,85.62994
+447,Gopalpur Gopal,Bochaha,Muzaffarpur,Bihar,25.85799,85.64867
+448,Gurmi,Bochaha,Muzaffarpur,Bihar,25.91571,85.67591
+449,Hamidpur,Bochaha,Muzaffarpur,Bihar,25.89134,85.61631
+450,Hari Ram Das urf Kalyanpur,Bochaha,Muzaffarpur,Bihar,25.88869,85.65475
+451,Husainpur,Bochaha,Muzaffarpur,Bihar,25.90119,85.65002
+452,Jagarnathpur (1),Bochaha,Muzaffarpur,Bihar,25.88314,85.64447
+453,Jagarnathpur (2),Bochaha,Muzaffarpur,Bihar,25.89438,85.66312
+454,Jagarnathpur (3),Bochaha,Muzaffarpur,Bihar,25.89902,85.63949
+455,Jhapaha,Bochaha,Muzaffarpur,Bihar,25.87808,85.65503
+456,Kafain Chaudhari,Bochaha,Muzaffarpur,Bihar,25.90579,85.65783
+457,Kafain Gobardhan,Bochaha,Muzaffarpur,Bihar,25.88614,85.63587
+458,Kafain Latif,Bochaha,Muzaffarpur,Bihar,25.88581,85.66683
+459,Kamla Balia,Bochaha,Muzaffarpur,Bihar,25.90791,85.64318
+460,Karanpur,Bochaha,Muzaffarpur,Bihar,25.87433,85.64582
+461,Karmania,Bochaha,Muzaffarpur,Bihar,25.90188,85.66731
+462,Kasipur urf Rampur,Bochaha,Muzaffarpur,Bihar,25.89586,85.63169
+463,Khalikpur,Bochaha,Muzaffarpur,Bihar,25.87562,85.66299
+464,Konhara Hardas,Bochaha,Muzaffarpur,Bihar,25.91275,85.65329
+465,Konhara Ragho,Bochaha,Muzaffarpur,Bihar,25.87788,85.63488
+466,Lalanua urf Deogan Lalanua,Bochaha,Muzaffarpur,Bihar,25.89151,85.67297
+467,Lalpur,Bochaha,Muzaffarpur,Bihar,25.90756,85.63476
+468,Lohsari,Bochaha,Muzaffarpur,Bihar,25.86905,85.6525
+469,Madarpur Jairam,Bochaha,Muzaffarpur,Bihar,25.91032,85.6657
+470,Madhopur,Bochaha,Muzaffarpur,Bihar,25.88835,85.62731
+471,Majhauli Jagai,Bochaha,Muzaffarpur,Bihar,25.87843,85.67133
+472,Mandahpur,Bochaha,Muzaffarpur,Bihar,25.91618,85.64507
+473,Manpur Jahangirpur,Bochaha,Muzaffarpur,Bihar,25.86977,85.63882
+474,Milki Chak,Bochaha,Muzaffarpur,Bihar,25.90031,85.67541
+475,Mirzapur (1),Bochaha,Muzaffarpur,Bihar,25.90254,85.627
+476,Mirzapur (2),Bochaha,Muzaffarpur,Bihar,25.86763,85.66175
+477,Misraulia,Bochaha,Muzaffarpur,Bihar,25.91762,85.65966
+478,Mohabegpur urf Narkatia,Bochaha,Muzaffarpur,Bihar,25.87877,85.62695
+479,Mohiuddinpur,Bochaha,Muzaffarpur,Bihar,25.88542,85.67806
+480,Muradpur Bharath,Bochaha,Muzaffarpur,Bihar,25.91545,85.63528
+481,Muradpur Kashi,Bochaha,Muzaffarpur,Bihar,25.8637,85.64669
+482,Narma,Bochaha,Muzaffarpur,Bihar,25.91019,85.67358
+483,Pakrisubhankar,Bochaha,Muzaffarpur,Bihar,25.89386,85.62169
+484,Parannathpur Dumri,Bochaha,Muzaffarpur,Bihar,25.87056,85.67161
+485,Parati,Bochaha,Muzaffarpur,Bihar,25.92209,85.65028
+486,Patiasa,Bochaha,Muzaffarpur,Bihar,25.86905,85.63097
+487,Pirakhpur,Bochaha,Muzaffarpur,Bihar,25.89543,85.68162
+488,PunarwaraSham,Bochaha,Muzaffarpur,Bihar,25.91035,85.62583
+489,Radha,Bochaha,Muzaffarpur,Bihar,25.86113,85.65723
+490,Ragho Majhauli,Bochaha,Muzaffarpur,Bihar,25.91926,85.66743
+491,Raghopatti,Bochaha,Muzaffarpur,Bihar,25.8829,85.62015
+492,Raghopur Majhauli,Bochaha,Muzaffarpur,Bihar,25.87772,85.68019
+493,Raghunathpur Gurguja,Bochaha,Muzaffarpur,Bihar,25.92255,85.639
+494,Rahsi (1),Bochaha,Muzaffarpur,Bihar,25.86107,85.6391
+495,Rahsi (2),Bochaha,Muzaffarpur,Bihar,25.90691,85.68096
+496,Raje Rup,Bochaha,Muzaffarpur,Bihar,25.90133,85.61854
+497,Ratanpura (1),Bochaha,Muzaffarpur,Bihar,25.86293,85.6688
+498,Ratanpura (2),Bochaha,Muzaffarpur,Bihar,25.92576,85.65757
+499,Rudha,Bochaha,Muzaffarpur,Bihar,25.87136,85.6231
+500,Sadullahpur,Bochaha,Muzaffarpur,Bihar,25.89148,85.65597
+501,Sahila Rampur,Bochaha,Muzaffarpur,Bihar,25.89892,85.64487
+502,Salha,Bochaha,Muzaffarpur,Bihar,25.881,85.65081
+503,Sanahti,Bochaha,Muzaffarpur,Bihar,25.90096,85.6595
+504,Serwani Chak urf Bhagwan,Bochaha,Muzaffarpur,Bihar,25.89105,85.63755
+505,Shahbazpur,Bochaha,Muzaffarpur,Bihar,25.88299,85.66234
+506,Shahpur,Bochaha,Muzaffarpur,Bihar,25.9072,85.64858
+507,Sharfuddinpur,Bochaha,Muzaffarpur,Bihar,25.87846,85.64206
+508,Simri Basant,Bochaha,Muzaffarpur,Bihar,25.89613,85.66749
+509,Simri Kalan,Bochaha,Muzaffarpur,Bihar,25.90044,85.63541
+510,Simri Nath,Bochaha,Muzaffarpur,Bihar,25.8746,85.65702
+511,Simri Saheb,Bochaha,Muzaffarpur,Bihar,25.9095,85.65858
+512,Simri Tulsi,Bochaha,Muzaffarpur,Bihar,25.88396,85.63302
+513,Sujawal Narayan,Bochaha,Muzaffarpur,Bihar,25.88559,85.67026
+514,Sujawal Sriram,Bochaha,Muzaffarpur,Bihar,25.91024,85.64084
+515,Surahi,Bochaha,Muzaffarpur,Bihar,25.87115,85.64604
+516,Takipur Barauli,Bochaha,Muzaffarpur,Bihar,25.90433,85.66919
+517,Takipur Manik,Bochaha,Muzaffarpur,Bihar,25.89527,85.62875
+518,Tatar,Bochaha,Muzaffarpur,Bihar,25.87416,85.66552
+519,Telma Bhagwant,Bochaha,Muzaffarpur,Bihar,25.91545,85.65237
+520,Telma Gopi,Bochaha,Muzaffarpur,Bihar,25.8753,85.6338
+521,Tilak Barauli,Bochaha,Muzaffarpur,Bihar,25.89271,85.67543
+522,Tulsi Chhapra,Bochaha,Muzaffarpur,Bihar,25.90828,85.63216
+523,Vishnupur Bharat,Bochaha,Muzaffarpur,Bihar,25.86683,85.65395
+524,Vishnupur Nath,Bochaha,Muzaffarpur,Bihar,25.91291,85.66609
+525,Yehiapur Bochaha,Bochaha,Muzaffarpur,Bihar,25.88668,85.62533
+526,Adampur Nisf 1st,Aurai,Muzaffarpur,Bihar,26.30437,85.58788
+527,Adampur Nisf 2nd,Aurai,Muzaffarpur,Bihar,26.3439,85.55722
+528,Ahimanpur urf Selempur,Aurai,Muzaffarpur,Bihar,26.29328,85.55306
+529,Alampur Simri,Aurai,Muzaffarpur,Bihar,26.32831,85.59087
+530,Amnaur,Aurai,Muzaffarpur,Bihar,26.32801,85.5386
+531,Anandpur Ghani,Aurai,Muzaffarpur,Bihar,26.29244,85.57788
+532,Arazi Ghanshyampur,Aurai,Muzaffarpur,Bihar,26.34591,85.57287
+533,Arazi Sohila Rampur Patti,Aurai,Muzaffarpur,Bihar,26.30254,85.54003
+534,Asmanpur,Aurai,Muzaffarpur,Bihar,26.31246,85.59422
+535,Atrah,Aurai,Muzaffarpur,Bihar,26.34211,85.54698
+536,Aurai,Aurai,Muzaffarpur,Bihar,26.2877,85.56197
+537,Babhangawan,Aurai,Muzaffarpur,Bihar,26.33853,85.58797
+538,Bahuara,Aurai,Muzaffarpur,Bihar,26.31838,85.53385
+539,Bahuarwa,Aurai,Muzaffarpur,Bihar,26.29644,85.58796
+540,Baigna Jagir,Aurai,Muzaffarpur,Bihar,26.34974,85.5626
+541,Baigna Nizamat,Aurai,Muzaffarpur,Bihar,26.29271,85.54512
+542,Baijnathpur urf Imlia,Aurai,Muzaffarpur,Bihar,26.32327,85.59707
+543,Balbhadarpur,Aurai,Muzaffarpur,Bihar,26.33595,85.53752
+544,Banauli,Aurai,Muzaffarpur,Bihar,26.28589,85.57322
+545,Bara Buzurg,Aurai,Muzaffarpur,Bihar,26.34751,85.58078
+546,Bara Khurd,Aurai,Muzaffarpur,Bihar,26.3068,85.53314
+547,Baram Jiwar Tara Jiwar,Aurai,Muzaffarpur,Bihar,26.30461,85.59635
+548,Basant urf Bishunpur Umapat,Aurai,Muzaffarpur,Bihar,26.34933,85.5508
+549,Basua urf Amaith,Aurai,Muzaffarpur,Bihar,26.28502,85.55422
+550,Bedauli Asli,Aurai,Muzaffarpur,Bihar,26.32045,85.56936
+551,Besi Baijnath,Aurai,Muzaffarpur,Bihar,26.32009,85.556
+552,Bhadai,Aurai,Muzaffarpur,Bihar,26.30893,85.57122
+553,Bhado,Aurai,Muzaffarpur,Bihar,26.33023,85.56673
+554,Bhalura,Aurai,Muzaffarpur,Bihar,26.30943,85.55458
+555,Bharospatti urf Bharathpatti,Aurai,Muzaffarpur,Bihar,26.31723,85.57947
+556,Bharthua,Aurai,Muzaffarpur,Bihar,26.32899,85.55422
+557,Bishunath urf Bishunpur Gokhul,Aurai,Muzaffarpur,Bihar,26.30178,85.56555
+558,Bishunpur Jagdish,Aurai,Muzaffarpur,Bihar,26.33092,85.57605
+559,Borwara Garib,Aurai,Muzaffarpur,Bihar,26.31585,85.5474
+560,Chainpur,Aurai,Muzaffarpur,Bihar,26.3073,85.57999
+561,Chihuta,Aurai,Muzaffarpur,Bihar,26.33666,85.56104
+562,Dakrawan urf Dagrawan,Aurai,Muzaffarpur,Bihar,26.30103,85.555
+563,Deokali Buzurg,Aurai,Muzaffarpur,Bihar,26.32394,85.58441
+564,Deokali Khurd,Aurai,Muzaffarpur,Bihar,26.32698,85.54616
+565,Deora Asli,Aurai,Muzaffarpur,Bihar,26.29813,85.57304
+566,Dharampur,Aurai,Muzaffarpur,Bihar,26.33858,85.57268
+567,Dharharwa urf Parri Dharharwa,Aurai,Muzaffarpur,Bihar,26.30778,85.54497
+568,Dharopatti,Aurai,Muzaffarpur,Bihar,26.31187,85.58717
+569,Dhasna,Aurai,Muzaffarpur,Bihar,26.33791,85.55253
+570,Dih Jiwar (1),Aurai,Muzaffarpur,Bihar,26.29442,85.56066
+571,Dih Jiwar (2),Aurai,Muzaffarpur,Bihar,26.33273,85.5845
+572,Ekma,Aurai,Muzaffarpur,Bihar,26.32035,85.54021
+573,Fatehpur Barauna,Aurai,Muzaffarpur,Bihar,26.29919,85.58199
+574,Gangauli (1),Aurai,Muzaffarpur,Bihar,26.34378,85.56518
+575,Gangauli (2),Aurai,Muzaffarpur,Bihar,26.2988,85.54716
+576,Ghanshyampur,Aurai,Muzaffarpur,Bihar,26.32014,85.59155
+577,Gopalpur,Aurai,Muzaffarpur,Bihar,26.33461,85.54365
+578,Gopalpur Bishunpur,Aurai,Muzaffarpur,Bihar,26.29094,85.56959
+579,Gopalpur urf Chandwara,Aurai,Muzaffarpur,Bihar,26.34139,85.58011
+580,Gorai urf Askauli,Aurai,Muzaffarpur,Bihar,26.31086,85.53768
+581,Halimpur,Aurai,Muzaffarpur,Bihar,26.30463,85.59031
+582,Harpur,Aurai,Muzaffarpur,Bihar,26.34531,85.55525
+583,Harpur Besi,Aurai,Muzaffarpur,Bihar,26.29093,85.5536
+584,Haswara,Aurai,Muzaffarpur,Bihar,26.33041,85.59202
+585,Inglish Chak,Aurai,Muzaffarpur,Bihar,26.32721,85.53634
+586,Jagatpur,Aurai,Muzaffarpur,Bihar,26.29154,85.58008
+587,Janarh Jiwajor Benipur,Aurai,Muzaffarpur,Bihar,26.34804,85.57183
+588,Jhiktahi,Aurai,Muzaffarpur,Bihar,26.30026,85.53939
+589,Jiusar,Aurai,Muzaffarpur,Bihar,26.31373,85.5962
+590,Jogaulia,Aurai,Muzaffarpur,Bihar,26.34249,85.54466
+591,Jonkikhurd urf Mathurapur Khurd,Aurai,Muzaffarpur,Bihar,26.28587,85.56344
+592,Kalyanpur (1),Aurai,Muzaffarpur,Bihar,26.34087,85.58808
+593,Kalyanpur (2),Aurai,Muzaffarpur,Bihar,26.31671,85.5322
+594,Karhatti,Aurai,Muzaffarpur,Bihar,26.29659,85.5903
+595,Khetalpur,Aurai,Muzaffarpur,Bihar,26.35119,85.56077
+596,Kiratpur,Aurai,Muzaffarpur,Bihar,26.29041,85.54552
+597,Kokilwara,Aurai,Muzaffarpur,Bihar,26.32525,85.59831
+598,Kothia,Aurai,Muzaffarpur,Bihar,26.33531,85.53528
+599,Madhopur,Aurai,Muzaffarpur,Bihar,26.28487,85.57531
+600,Madhuban Besi,Aurai,Muzaffarpur,Bihar,26.32252,85.56713
+601,Madhuban Partap,Aurai,Muzaffarpur,Bihar,26.31449,85.55645
+602,Maheswara,Aurai,Muzaffarpur,Bihar,26.3142,85.57532
+603,Mahisautha,Aurai,Muzaffarpur,Bihar,26.32897,85.55933
+604,Mahrauli urf Madhauli,Aurai,Muzaffarpur,Bihar,26.30498,85.56147
+605,Maksudpur,Aurai,Muzaffarpur,Bihar,26.32575,85.57724
+606,Mathna urf Basua,Aurai,Muzaffarpur,Bihar,26.32071,85.54985
+607,Mathurapur Buzurg,Aurai,Muzaffarpur,Bihar,26.3051,85.57484
+608,Matihani,Aurai,Muzaffarpur,Bihar,26.33493,85.56652
+609,Minapur,Aurai,Muzaffarpur,Bihar,26.30605,85.5519
+610,Misraulia,Aurai,Muzaffarpur,Bihar,26.31796,85.58342
+611,Narhar,Aurai,Muzaffarpur,Bihar,26.33091,85.55096
+612,Naya Goan,Aurai,Muzaffarpur,Bihar,26.29837,85.56668
+613,Paryag Chak,Aurai,Muzaffarpur,Bihar,26.33408,85.57738
+614,Patori,Aurai,Muzaffarpur,Bihar,26.31441,85.54444
+615,Pitaunjhia Jagarnath,Aurai,Muzaffarpur,Bihar,26.30646,85.58306
+616,Raj Khand,Aurai,Muzaffarpur,Bihar,26.33923,85.55934
+617,Rampur (1),Aurai,Muzaffarpur,Bihar,26.29806,85.55459
+618,Rampur (2),Aurai,Muzaffarpur,Bihar,26.32585,85.58662
+619,Rampur Az Rakbe,Aurai,Muzaffarpur,Bihar,26.32701,85.5433
+620,Rasulpur,Aurai,Muzaffarpur,Bihar,26.29627,85.57512
+621,Ratanpur,Aurai,Muzaffarpur,Bihar,26.34131,85.57236
+622,Ratwara Bindwara Deoria,Aurai,Muzaffarpur,Bihar,26.30556,85.54343
+623,Saghari,Aurai,Muzaffarpur,Bihar,26.31251,85.58974
+624,Sarhanchia,Aurai,Muzaffarpur,Bihar,26.33912,85.55021
+625,Shahila Balli,Aurai,Muzaffarpur,Bihar,26.29201,85.56158
+626,Shahpur,Aurai,Muzaffarpur,Bihar,26.33512,85.5854
+627,Shankarpur,Aurai,Muzaffarpur,Bihar,26.31917,85.53798
+628,Sisauli,Aurai,Muzaffarpur,Bihar,26.2986,85.58442
+629,Sohila Baijnath,Aurai,Muzaffarpur,Bihar,26.34582,85.56377
+630,Sundarkhauli,Aurai,Muzaffarpur,Bihar,26.29636,85.54686
+631,Tojaul,Aurai,Muzaffarpur,Bihar,26.32176,85.59337
+632,Tulsi Anantpur,Aurai,Muzaffarpur,Bihar,26.33461,85.54123
+633,Adwara urf Chintamanpur,Sakra,Muzaffarpur,Bihar,26.22333,85.15839
+634,Ali Sarai urf Hasanpur Sarai,Sakra,Muzaffarpur,Bihar,26.27777,85.16684
+635,Baghnagri urf Bishunpur Subas,Sakra,Muzaffarpur,Bihar,26.24291,85.12331
+636,Bahrampur,Sakra,Muzaffarpur,Bihar,26.23917,85.17962
+637,Bajar Mara Chak Abdullahpur,Sakra,Muzaffarpur,Bihar,26.28044,85.14016
+638,Baji Buzurg,Sakra,Muzaffarpur,Bihar,26.22271,85.1414
+639,Baji Raut,Sakra,Muzaffarpur,Bihar,26.2666,85.17991
+640,Baji urf Manoharpatti,Sakra,Muzaffarpur,Bihar,26.26017,85.12123
+641,Bakhri,Sakra,Muzaffarpur,Bihar,26.22491,85.16934
+642,Bariyarpur Kandh,Sakra,Muzaffarpur,Bihar,26.28402,85.15757
+643,Basantpur Ghaus,Sakra,Muzaffarpur,Bihar,26.23195,85.12601
+644,Basantpur Jhiktahi,Sakra,Muzaffarpur,Bihar,26.2492,85.18502
+645,Bazidpur Asog,Sakra,Muzaffarpur,Bihar,26.27661,85.12933
+646,Bedhipur,Sakra,Muzaffarpur,Bihar,26.21823,85.1521
+647,Beruadih,Sakra,Muzaffarpur,Bihar,26.2772,85.17495
+648,Bharthipur,Sakra,Muzaffarpur,Bihar,26.24889,85.11775
+649,Bharwari,Sakra,Muzaffarpur,Bihar,26.23097,85.1796
+650,Bhatandi,Sakra,Muzaffarpur,Bihar,26.25692,85.15111
+651,Bishunpur Tara,Sakra,Muzaffarpur,Bihar,26.24419,85.14706
+652,Chak Ajmeri,Sakra,Muzaffarpur,Bihar,26.25489,85.16261
+653,Chak Firoz,Sakra,Muzaffarpur,Bihar,26.25766,85.14102
+654,Chak Rahi urf Maniari,Sakra,Muzaffarpur,Bihar,26.23935,85.15666
+655,Chakdah,Sakra,Muzaffarpur,Bihar,26.26541,85.15749
+656,Chandanpatti,Sakra,Muzaffarpur,Bihar,26.24543,85.13808
+657,Chandpur Chiknauta,Sakra,Muzaffarpur,Bihar,26.24719,85.1675
+658,Chhapra Bahar,Sakra,Muzaffarpur,Bihar,26.26668,85.14343
+659,Chhapra Farid,Sakra,Muzaffarpur,Bihar,26.23467,85.14825
+660,Chhapra Faridpur urf Misraulia,Sakra,Muzaffarpur,Bihar,26.26264,85.16703
+661,Dharampur Susta,Sakra,Muzaffarpur,Bihar,26.25439,85.13308
+662,Dihri Buzurg,Sakra,Muzaffarpur,Bihar,26.23698,85.16474
+663,Dihri Ishak,Sakra,Muzaffarpur,Bihar,26.27228,85.15278
+664,Donwan,Sakra,Muzaffarpur,Bihar,26.23716,85.13732
+665,Dubaha Buzurg,Sakra,Muzaffarpur,Bihar,26.25305,85.17341
+666,Faridpur urf Shakra,Sakra,Muzaffarpur,Bihar,26.26603,85.13509
+667,Firozpur Asli,Sakra,Muzaffarpur,Bihar,26.22972,85.15507
+668,Ganiari,Sakra,Muzaffarpur,Bihar,26.27092,85.16508
+669,Gauri Har Khalik Nagar,Sakra,Muzaffarpur,Bihar,26.24677,85.1291
+670,Ghanipur Bejha,Sakra,Muzaffarpur,Bihar,26.24014,85.17284
+671,Gobardhanpur,Sakra,Muzaffarpur,Bihar,26.27526,85.1445
+672,Gopalpur Khurd,Sakra,Muzaffarpur,Bihar,26.22936,85.14163
+673,Gopalpur Raja Ram,Sakra,Muzaffarpur,Bihar,26.26186,85.17535
+674,Harpur Kishuni,Sakra,Muzaffarpur,Bihar,26.26065,85.12771
+675,Hasanpur Pagahi,Sakra,Muzaffarpur,Bihar,26.22883,85.16427
+676,Jagdishpur Baghnagri,Sakra,Muzaffarpur,Bihar,26.27777,85.15871
+677,Jogni Ganga,Sakra,Muzaffarpur,Bihar,26.2373,85.1293
+678,Jogni Jaga,Sakra,Muzaffarpur,Bihar,26.24743,85.17907
+679,Kan Maniari,Sakra,Muzaffarpur,Bihar,26.27396,85.13488
+680,Katesar,Sakra,Muzaffarpur,Bihar,26.22385,85.14976
+681,Keshopur,Sakra,Muzaffarpur,Bihar,26.2715,85.17295
+682,Khaparpura urf Peari,Sakra,Muzaffarpur,Bihar,26.25177,85.123
+683,Khemaipatti,Sakra,Muzaffarpur,Bihar,26.23233,85.17382
+684,Kutubpur,Sakra,Muzaffarpur,Bihar,26.2816,85.14916
+685,Machhia,Sakra,Muzaffarpur,Bihar,26.22797,85.13388
+686,Madsudanpur,Sakra,Muzaffarpur,Bihar,26.25754,85.18195
+687,Madsudanpur Fakirana,Sakra,Muzaffarpur,Bihar,26.26833,85.12588
+688,Mahammadpur Banwari,Sakra,Muzaffarpur,Bihar,26.22198,85.16033
+689,Mahammadpur Bhopat,Sakra,Muzaffarpur,Bihar,26.28007,85.16629
+690,Mahammadpur Buzurg,Sakra,Muzaffarpur,Bihar,26.24084,85.12219
+691,Mahammadpur Dharam,Sakra,Muzaffarpur,Bihar,26.23996,85.18183
+692,Mahammadpur Kanth,Sakra,Muzaffarpur,Bihar,26.28132,85.13799
+693,Majhauli Pachdahi,Sakra,Muzaffarpur,Bihar,26.22061,85.14243
+694,Majhaulia,Sakra,Muzaffarpur,Bihar,26.26885,85.18054
+695,Malpur urf Chak Hazrat,Sakra,Muzaffarpur,Bihar,26.25892,85.11926
+696,Mansurpur,Sakra,Muzaffarpur,Bihar,26.22453,85.17165
+697,Marari Khurd,Sakra,Muzaffarpur,Bihar,26.28584,85.15611
+698,Marwan urf Arizpur,Sakra,Muzaffarpur,Bihar,26.22962,85.12588
+699,Mathurapur (1),Sakra,Muzaffarpur,Bihar,26.25084,85.18668
+700,Mathurapur (2),Sakra,Muzaffarpur,Bihar,26.2555,85.14843
+701,Mehsi,Sakra,Muzaffarpur,Bihar,26.24277,85.1525
+702,Mohanpur Fakirana,Sakra,Muzaffarpur,Bihar,26.2605,85.15898
+703,Mohanpur Manda,Sakra,Muzaffarpur,Bihar,26.25025,85.13978
+704,Mohiuddinpur,Sakra,Muzaffarpur,Bihar,26.24439,85.16313
+705,Mundiari,Sakra,Muzaffarpur,Bihar,26.26611,85.14871
+706,Murna urf Harlochanpur,Sakra,Muzaffarpur,Bihar,26.23858,85.14446
+707,Mushari,Sakra,Muzaffarpur,Bihar,26.25706,85.16742
+708,Mushari Ram,Sakra,Muzaffarpur,Bihar,26.25901,85.13651
+709,Narsinghpur,Sakra,Muzaffarpur,Bihar,26.2357,85.15898
+710,Nawalpur Misraulia,Sakra,Muzaffarpur,Bihar,26.26938,85.15809
+711,Paharpur,Sakra,Muzaffarpur,Bihar,26.24299,85.13519
+712,Paighambarpur,Sakra,Muzaffarpur,Bihar,26.24713,85.17109
+713,Parsurampur Pachdahi,Sakra,Muzaffarpur,Bihar,26.26898,85.14088
+714,Parupatti,Sakra,Muzaffarpur,Bihar,26.2314,85.14863
+715,Patsawan,Sakra,Muzaffarpur,Bihar,26.26526,85.16884
+716,Patsawan Kariat,Sakra,Muzaffarpur,Bihar,26.25364,85.13009
+717,Pupri,Sakra,Muzaffarpur,Bihar,26.23561,85.16741
+718,Raghubarpur urf Mohammadpur,Sakra,Muzaffarpur,Bihar,26.275,85.1517
+719,Rahimpur Jiwan urf Raksa,Sakra,Muzaffarpur,Bihar,26.23447,85.13636
+720,Raipur,Sakra,Muzaffarpur,Bihar,26.25441,85.17585
+721,Raja Padar,Sakra,Muzaffarpur,Bihar,26.26662,85.13241
+722,Rajapur,Sakra,Muzaffarpur,Bihar,26.22754,85.15666
+723,Rami Rampur,Sakra,Muzaffarpur,Bihar,26.27356,85.16533
+724,Ramnagar Lachhumannagar,Sakra,Muzaffarpur,Bihar,26.24498,85.12719
+725,Rampur Bakhri,Sakra,Muzaffarpur,Bihar,26.24022,85.17542
+726,Rampur Bhadson,Sakra,Muzaffarpur,Bihar,26.2769,85.14254
+727,Rampur Kishuni,Sakra,Muzaffarpur,Bihar,26.22687,85.14201
+728,Rampur Mani,Sakra,Muzaffarpur,Bihar,26.26396,85.17671
+729,Rampur Raji urf Banjaria,Sakra,Muzaffarpur,Bihar,26.25999,85.12532
+730,Rasulpur Marwah urf Maniari,Sakra,Muzaffarpur,Bihar,26.22775,85.16648
+731,Rasulpur Tajo,Sakra,Muzaffarpur,Bihar,26.28003,85.15778
+732,Ratanpur Kewal,Sakra,Muzaffarpur,Bihar,26.23501,85.1285
+733,Rupanpattiwo Mathurapur Jani,Sakra,Muzaffarpur,Bihar,26.24861,85.18118
+734,Sadpur Buzurg,Sakra,Muzaffarpur,Bihar,26.27449,85.13254
+735,Sadullahpur,Sakra,Muzaffarpur,Bihar,26.22191,85.15115
+736,Sangopatti,Sakra,Muzaffarpur,Bihar,26.27387,85.1732
+737,Sapha Mahdaiya,Sakra,Muzaffarpur,Bihar,26.25018,85.12125
+738,Saraiya,Sakra,Muzaffarpur,Bihar,26.23235,85.17618
+739,Sarmastpur,Sakra,Muzaffarpur,Bihar,26.28316,85.14739
+740,Semra,Sakra,Muzaffarpur,Bihar,26.22563,85.13416
+741,Semri,Sakra,Muzaffarpur,Bihar,26.25947,85.18329
+742,Shahpur Juned,Sakra,Muzaffarpur,Bihar,26.26779,85.1236
+743,Shakra Bazid,Sakra,Muzaffarpur,Bihar,26.22087,85.16238
+744,Shampur,Sakra,Muzaffarpur,Bihar,26.28227,85.16551
+745,Shirazabad,Sakra,Muzaffarpur,Bihar,26.23868,85.12131
+746,Siho,Sakra,Muzaffarpur,Bihar,26.24099,85.18393
+747,Sipahi urf Narayanpur,Sakra,Muzaffarpur,Bihar,26.28196,85.13575
+748,Sujawalpur,Sakra,Muzaffarpur,Bihar,26.21863,85.14367
+749,Sujawalpur Chauriwan,Sakra,Muzaffarpur,Bihar,26.27115,85.18094
+750,Sundarpur,Sakra,Muzaffarpur,Bihar,26.25278,85.14706
+751,Tajpur,Sakra,Muzaffarpur,Bihar,26.24477,85.15775
+752,Tirhuta Chak,Sakra,Muzaffarpur,Bihar,26.26297,85.15276
+753,Triveni Chhapra,Sakra,Muzaffarpur,Bihar,26.2435,85.14305
+754,Turkaulia,Sakra,Muzaffarpur,Bihar,26.25224,85.16548
+755,Ujiarpur,Sakra,Muzaffarpur,Bihar,26.26159,85.14114
+756,Vishunpur Saiyad,Sakra,Muzaffarpur,Bihar,26.23669,85.15362
+757,Yasinpur,Sakra,Muzaffarpur,Bihar,26.26505,85.16164
+758,Zoraha Sakra,Sakra,Muzaffarpur,Bihar,26.24874,85.13532
+759,Arazi Pirhari,Gaighat,Muzaffarpur,Bihar,26.21576,85.70013
+760,Asia,Gaighat,Muzaffarpur,Bihar,26.2427,85.6799
+761,Bagha Khal urf Nabipur,Gaighat,Muzaffarpur,Bihar,26.20792,85.67652
+762,Bahadurpur,Gaighat,Muzaffarpur,Bihar,26.23209,85.70338
+763,Bakhri,Gaighat,Muzaffarpur,Bihar,26.2324,85.6661
+764,Balha,Gaighat,Muzaffarpur,Bihar,26.20626,85.69419
+765,Baraila,Gaighat,Muzaffarpur,Bihar,26.24556,85.69104
+766,Barhmotra urf Parmanandpur,Gaighat,Muzaffarpur,Bihar,26.21364,85.66619
+767,Baruari urf Jagdishpur Baruari,Gaighat,Muzaffarpur,Bihar,26.22057,85.70705
+768,Bela Gopi,Gaighat,Muzaffarpur,Bihar,26.24357,85.67143
+769,Belaur Nidhi urf BelaurThana,Gaighat,Muzaffarpur,Bihar,26.20165,85.6824
+770,Berwa urf Ibrahimpur Pirahari,Gaighat,Muzaffarpur,Bihar,26.24078,85.70305
+771,Bhagwatpur,Gaighat,Muzaffarpur,Bihar,26.22557,85.66056
+772,Bharampur Sital,Gaighat,Muzaffarpur,Bihar,26.20776,85.70296
+773,Bhorpura Garib,Gaighat,Muzaffarpur,Bihar,26.25029,85.68337
+774,Bhusra,Gaighat,Muzaffarpur,Bihar,26.20491,85.66884
+775,Bihari urf Bhatgawan,Gaighat,Muzaffarpur,Bihar,26.22897,85.71091
+776,Bitwara urf Bahadurpur,Gaighat,Muzaffarpur,Bihar,26.23981,85.66287
+777,Boaridih,Gaighat,Muzaffarpur,Bihar,26.19873,85.69141
+778,Chauth urf Jamalpur Kodai,Gaighat,Muzaffarpur,Bihar,26.24906,85.69821
+779,Chhitwara,Gaighat,Muzaffarpur,Bihar,26.21606,85.65863
+780,Chiraila,Gaighat,Muzaffarpur,Bihar,26.21362,85.71084
+781,Dahila Patsawan,Gaighat,Muzaffarpur,Bihar,26.2512,85.67347
+782,Dhubauli Lakhmi,Gaighat,Muzaffarpur,Bihar,26.19754,85.67568
+783,Dhubauli Piar Bhela,Gaighat,Muzaffarpur,Bihar,26.23913,85.71075
+784,Dhubauli Sube,Gaighat,Muzaffarpur,Bihar,26.23206,85.65611
+785,Dumrawan,Gaighat,Muzaffarpur,Bihar,26.19998,85.70174
+786,Ghyasuddinpur,Gaighat,Muzaffarpur,Bihar,26.2551,85.68961
+787,Godanpatti,Gaighat,Muzaffarpur,Bihar,26.2057,85.66099
+788,Harkhauli,Gaighat,Muzaffarpur,Bihar,26.22299,85.71609
+789,Harpur urfKamalpurBhadwaraDih,Gaighat,Muzaffarpur,Bihar,26.24773,85.6632
+790,Hasna Gaddi,Gaighat,Muzaffarpur,Bihar,26.19318,85.68573
+791,Jahangirpur,Gaighat,Muzaffarpur,Bihar,26.24921,85.70618
+792,Jamalpur Kodai,Gaighat,Muzaffarpur,Bihar,26.22141,85.6527
+793,Janta Tok,Gaighat,Muzaffarpur,Bihar,26.20564,85.7115
+794,Jarang,Gaighat,Muzaffarpur,Bihar,26.25749,85.67848
+795,Jaya urf Jia,Gaighat,Muzaffarpur,Bihar,26.19636,85.6677
+796,Kakrahia,Gaighat,Muzaffarpur,Bihar,26.23452,85.71741
+797,Kalyanpur urf BishunpurKalyan,Gaighat,Muzaffarpur,Bihar,26.24001,85.6544
+798,Kamarthu,Gaighat,Muzaffarpur,Bihar,26.19297,85.69754
+799,Kanta Pirauchha,Gaighat,Muzaffarpur,Bihar,26.25737,85.6975
+800,Keotas urf Keotsa,Gaighat,Muzaffarpur,Bihar,26.22278,85.68052
+801,Khajuri,Gaighat,Muzaffarpur,Bihar,26.22244,85.69388
+802,Kothia urf Madhaul,Gaighat,Muzaffarpur,Bihar,26.23439,85.67927
+803,Kumhrauli,Gaighat,Muzaffarpur,Bihar,26.21288,85.68263
+804,Kutubpur urf Rosara,Gaighat,Muzaffarpur,Bihar,26.23301,85.69585
+805,Lachhman Nagar,Gaighat,Muzaffarpur,Bihar,26.22653,85.67059
+806,Ladaura,Gaighat,Muzaffarpur,Bihar,26.21346,85.69519
+807,Lodi Yusufpur Ladi,Gaighat,Muzaffarpur,Bihar,26.24122,85.6853
+808,Lohbandra,Gaighat,Muzaffarpur,Bihar,26.21268,85.67329
+809,Loma urf Loama,Gaighat,Muzaffarpur,Bihar,26.22623,85.70269
+810,Madhura Patti urf Manorathpatti,Gaighat,Muzaffarpur,Bihar,26.23647,85.67059
+811,Mahamadpur Sura,Gaighat,Muzaffarpur,Bihar,26.20616,85.68798
+812,Maheshwara,Gaighat,Muzaffarpur,Bihar,26.24142,85.69587
+813,Mahwara,Gaighat,Muzaffarpur,Bihar,26.22009,85.66531
+814,Majithi urf Basatpur Majithi,Gaighat,Muzaffarpur,Bihar,26.21504,85.70335
+815,Makrandpur urf Makrampur,Gaighat,Muzaffarpur,Bihar,26.24526,85.67802
+816,Manipur Dahila,Gaighat,Muzaffarpur,Bihar,26.20485,85.67625
+817,Misrauli,Gaighat,Muzaffarpur,Bihar,26.23416,85.70554
+818,Paga,Gaighat,Muzaffarpur,Bihar,26.23228,85.66318
+819,Pakri urf Rasnajagan,Gaighat,Muzaffarpur,Bihar,26.20446,85.69641
+820,Patsawan Donimaknawan,Gaighat,Muzaffarpur,Bihar,26.24832,85.69057
+821,Raghopur,Gaighat,Muzaffarpur,Bihar,26.21131,85.66475
+822,Raila Narayan,Gaighat,Muzaffarpur,Bihar,26.22135,85.70963
+823,Ram Patti,Gaighat,Muzaffarpur,Bihar,26.24467,85.66902
+824,Ramauli,Gaighat,Muzaffarpur,Bihar,26.19926,85.68347
+825,Ramnagar,Gaighat,Muzaffarpur,Bihar,26.24324,85.70382
+826,Rona,Gaighat,Muzaffarpur,Bihar,26.22425,85.65838
+827,Santha,Gaighat,Muzaffarpur,Bihar,26.2073,85.70545
+828,Shakarwara Nur,Gaighat,Muzaffarpur,Bihar,26.25227,85.68183
+829,Shakarwara Sabik,Gaighat,Muzaffarpur,Bihar,26.20243,85.66868
+830,Sinia,Gaighat,Muzaffarpur,Bihar,26.2307,85.71266
+831,Subas Kesho,Gaighat,Muzaffarpur,Bihar,26.23968,85.66043
+832,Subas Kunaimai SubasGangwasubas,Gaighat,Muzaffarpur,Bihar,26.19722,85.69331
+833,Susta,Gaighat,Muzaffarpur,Bihar,26.25144,85.6978
+834,Tal Boari,Gaighat,Muzaffarpur,Bihar,26.21402,85.65736
+835,TarukTolia urf JagdishpurBarua,Gaighat,Muzaffarpur,Bihar,26.2143,85.71313
+836,Tejauli Buzurg,Gaighat,Muzaffarpur,Bihar,26.25221,85.67132
+837,Tharma,Gaighat,Muzaffarpur,Bihar,26.19536,85.67661
+838,Thika Pahi,Gaighat,Muzaffarpur,Bihar,26.24137,85.7115
+839,Tirsatha,Gaighat,Muzaffarpur,Bihar,26.2309,85.65406
+840,Abdulnagar urf Madhopur,Musahri (Turki),Muzaffarpur,Bihar,26.09448,85.42903
+841,Akbarpur,Musahri (Turki),Muzaffarpur,Bihar,26.152,85.41323
+842,Bahadurpur,Musahri (Turki),Muzaffarpur,Bihar,26.09837,85.38575
+843,Baijnathpur,Musahri (Turki),Muzaffarpur,Bihar,26.11957,85.44282
+844,Baikunthpur,Musahri (Turki),Muzaffarpur,Bihar,26.14271,85.38586
+845,Bakhrichandan,Musahri (Turki),Muzaffarpur,Bihar,26.08663,85.41249
+846,Bara Jagarnath,Musahri (Turki),Muzaffarpur,Bihar,26.14653,85.4309
+847,Barhanpura,Musahri (Turki),Muzaffarpur,Bihar,26.11451,85.37636
+848,Barmatpur urf Bishunpur Kharak,Musahri (Turki),Muzaffarpur,Bihar,26.10116,85.43877
+849,Bhagwanpur,Musahri (Turki),Muzaffarpur,Bihar,26.15362,85.40143
+850,Bhagwatipur (1),Musahri (Turki),Muzaffarpur,Bihar,26.11559,85.40764
+851,Bhagwatipur (2),Musahri (Turki),Muzaffarpur,Bihar,26.12306,85.41872
+852,Bhataulia urf Shahjahanpur,Musahri (Turki),Muzaffarpur,Bihar,26.12433,85.39989
+853,Bhikanpur Adam,Musahri (Turki),Muzaffarpur,Bihar,26.10875,85.41509
+854,Bhikanpur Dih,Musahri (Turki),Muzaffarpur,Bihar,26.13281,85.4142
+855,Bhikhanpura,Musahri (Turki),Muzaffarpur,Bihar,26.1129,85.39737
+856,Binda,Musahri (Turki),Muzaffarpur,Bihar,26.1165,85.42499
+857,Bishunpur Manohar,Musahri (Turki),Muzaffarpur,Bihar,26.13339,85.40084
+858,Burhnagra,Musahri (Turki),Muzaffarpur,Bihar,26.10317,85.40759
+859,Burhnagra Radha,Musahri (Turki),Muzaffarpur,Bihar,26.13125,85.4237
+860,Chak Ahmad,Musahri (Turki),Muzaffarpur,Bihar,26.121,85.39161
+861,Chak Alahdad,Musahri (Turki),Muzaffarpur,Bihar,26.10637,85.42334
+862,Chak Ghazi,Musahri (Turki),Muzaffarpur,Bihar,26.13969,85.40935
+863,Chak Mohabbat,Musahri (Turki),Muzaffarpur,Bihar,26.10459,85.39679
+864,Chak Salem,Musahri (Turki),Muzaffarpur,Bihar,26.12251,85.43072
+865,Chandwara,Musahri (Turki),Muzaffarpur,Bihar,26.13247,85.39257
+866,Chapra Megh Rai,Musahri (Turki),Muzaffarpur,Bihar,26.0985,85.41454
+867,Chau Siwan,Musahri (Turki),Muzaffarpur,Bihar,26.13937,85.42144
+868,Damodarpur,Musahri (Turki),Muzaffarpur,Bihar,26.1133,85.388
+869,Dhanhara Chhapra,Musahri (Turki),Muzaffarpur,Bihar,26.10987,85.4312
+870,Dharampur,Musahri (Turki),Muzaffarpur,Bihar,26.14223,85.40103
+871,Dhobahan urf Mahammadpur Fazil,Musahri (Turki),Muzaffarpur,Bihar,26.09711,85.40143
+872,Dighra Patti,Musahri (Turki),Muzaffarpur,Bihar,26.13129,85.43219
+873,Dighra Rampur Shah,Musahri (Turki),Muzaffarpur,Bihar,26.12678,85.38558
+874,Dighrapatti,Musahri (Turki),Muzaffarpur,Bihar,26.09813,85.42366
+875,Dumri urf Mahammadpur Mobarak,Musahri (Turki),Muzaffarpur,Bihar,26.14577,85.41478
+876,Dwarkanagar urf Dwarkanathpur,Musahri (Turki),Muzaffarpur,Bihar,26.10397,85.38873
+877,Fatehpur,Musahri (Turki),Muzaffarpur,Bihar,26.11742,85.43692
+878,Gobrahi urf Gobardhanpur,Musahri (Turki),Muzaffarpur,Bihar,26.14039,85.39162
+879,Harpur,Musahri (Turki),Muzaffarpur,Bihar,26.09215,85.40977
+880,Harpur Bakhri,Musahri (Turki),Muzaffarpur,Bihar,26.14067,85.42924
+881,Hasan Chak (1),Musahri (Turki),Muzaffarpur,Bihar,26.11773,85.38147
+882,Hasan Chak (2),Musahri (Turki),Muzaffarpur,Bihar,26.10217,85.43287
+883,Jalalpur Baikat,Musahri (Turki),Muzaffarpur,Bihar,26.14896,85.40512
+884,Jamalabad,Musahri (Turki),Muzaffarpur,Bihar,26.09504,85.39383
+885,Jhapaha,Musahri (Turki),Muzaffarpur,Bihar,26.12758,85.43913
+886,Kanahauli Bishundat,Musahri (Turki),Muzaffarpur,Bihar,26.13426,85.38309
+887,Khabra urf Kiratpur Gurdas,Musahri (Turki),Muzaffarpur,Bihar,26.09098,85.42033
+888,Kothia Dakhili,Musahri (Turki),Muzaffarpur,Bihar,26.1487,85.42212
+889,Madapur Chaube,Musahri (Turki),Muzaffarpur,Bihar,26.10688,85.38137
+890,Madhubani,Musahri (Turki),Muzaffarpur,Bihar,26.11023,85.4403
+891,Mahammadpur Kazi,Musahri (Turki),Muzaffarpur,Bihar,26.14796,85.3941
+892,Majhauli Dharamdas,Musahri (Turki),Muzaffarpur,Bihar,26.08832,85.40277
+893,Makundpur,Musahri (Turki),Muzaffarpur,Bihar,26.13866,85.437
+894,Manika Ghazi,Musahri (Turki),Muzaffarpur,Bihar,26.12453,85.37717
+895,Manika Harkishun,Musahri (Turki),Muzaffarpur,Bihar,26.09424,85.43136
+896,Manika urf Bishunpur Bhand,Musahri (Turki),Muzaffarpur,Bihar,26.15373,85.41167
+897,Manikpur Burhnagra,Musahri (Turki),Muzaffarpur,Bihar,26.09603,85.38576
+898,Manshi,Musahri (Turki),Muzaffarpur,Bihar,26.12131,85.44437
+899,Mathurapur,Musahri (Turki),Muzaffarpur,Bihar,26.14245,85.38354
+900,Mirdahi (1),Musahri (Turki),Muzaffarpur,Bihar,26.11504,85.41063
+901,Mirdahi (2),Musahri (Turki),Muzaffarpur,Bihar,26.12754,85.41534
+902,Mithanpura,Musahri (Turki),Muzaffarpur,Bihar,26.11767,85.39925
+903,Modhopur,Musahri (Turki),Muzaffarpur,Bihar,26.11377,85.42066
+904,Mominpur urf BishunpurManohar,Musahri (Turki),Muzaffarpur,Bihar,26.13288,85.40601
+905,Muradpur Dullah,Musahri (Turki),Muzaffarpur,Bihar,26.1069,85.40382
+906,Mushari urf Radhanagar,Musahri (Turki),Muzaffarpur,Bihar,26.12583,85.42425
+907,Nanhu Chak urf Yusufpur,Musahri (Turki),Muzaffarpur,Bihar,26.12561,85.39478
+908,Narauli,Musahri (Turki),Muzaffarpur,Bihar,26.10489,85.41779
+909,Narauli Dih,Musahri (Turki),Muzaffarpur,Bihar,26.13711,85.41466
+910,Narauli Kalyan,Musahri (Turki),Muzaffarpur,Bihar,26.11016,85.39443
+911,Narsinghpur,Musahri (Turki),Muzaffarpur,Bihar,26.11662,85.42877
+912,Nawada urf BishunpurBhagwan,Musahri (Turki),Muzaffarpur,Bihar,26.13567,85.39806
+913,Nayagaon,Musahri (Turki),Muzaffarpur,Bihar,26.09979,85.40816
+914,Nazirpur,Musahri (Turki),Muzaffarpur,Bihar,26.13405,85.42544
+915,Pahladpur,Musahri (Turki),Muzaffarpur,Bihar,26.12007,85.38857
+916,Pakri Ismail,Musahri (Turki),Muzaffarpur,Bihar,26.10511,85.42615
+917,Parmanandpur,Musahri (Turki),Muzaffarpur,Bihar,26.14241,85.4081
+918,Patahi urf Patahi Rup,Musahri (Turki),Muzaffarpur,Bihar,26.10179,85.39595
+919,Pirmahammadpur,Musahri (Turki),Muzaffarpur,Bihar,26.12402,85.43315
+920,Punas Chaturi,Musahri (Turki),Muzaffarpur,Bihar,26.13293,85.38981
+921,Punas Raja,Musahri (Turki),Muzaffarpur,Bihar,26.09638,85.41627
+922,Raghopur,Musahri (Turki),Muzaffarpur,Bihar,26.14206,85.42155
+923,Raghunathpur Jagdish,Musahri (Turki),Muzaffarpur,Bihar,26.11138,85.38616
+924,Raghunathpur Khurd,Musahri (Turki),Muzaffarpur,Bihar,26.11009,85.4338
+925,Rajwara Bhagwan,Musahri (Turki),Muzaffarpur,Bihar,26.14378,85.39896
+926,Rajwara Dih,Musahri (Turki),Muzaffarpur,Bihar,26.09461,85.40195
+927,Rakbe Yehiapur urf Ganeshpur,Musahri (Turki),Muzaffarpur,Bihar,26.13349,85.43344
+928,Rasulpur Saidpur Bazid,Musahri (Turki),Muzaffarpur,Bihar,26.12598,85.38321
+929,Rasulpur Saiyad Salem,Musahri (Turki),Muzaffarpur,Bihar,26.09717,85.42595
+930,Ratwara,Musahri (Turki),Muzaffarpur,Bihar,26.14799,85.41372
+931,Rohua Apuchh,Musahri (Turki),Muzaffarpur,Bihar,26.10162,85.38806
+932,Rohua Birnarayan,Musahri (Turki),Muzaffarpur,Bihar,26.11871,85.43897
+933,Rohua Rajaram,Musahri (Turki),Muzaffarpur,Bihar,26.14078,85.38924
+934,Roshanpur,Musahri (Turki),Muzaffarpur,Bihar,26.09029,85.41128
+935,Sadullahpur,Musahri (Turki),Muzaffarpur,Bihar,26.14305,85.42936
+936,Saghari,Musahri (Turki),Muzaffarpur,Bihar,26.11603,85.3798
+937,Salha,Musahri (Turki),Muzaffarpur,Bihar,26.10233,85.43523
+938,Samapur urf Nandgrampur,Musahri (Turki),Muzaffarpur,Bihar,26.15041,85.40326
+939,Saraiya Sadullahpur,Musahri (Turki),Muzaffarpur,Bihar,26.09272,85.39426
+940,SaraiyaChakMustafa urfSipapur,Musahri (Turki),Muzaffarpur,Bihar,26.12958,85.44036
+941,Shahbazpur Salem,Musahri (Turki),Muzaffarpur,Bihar,26.13358,85.38084
+942,Shahbazpur urf Salempur,Musahri (Turki),Muzaffarpur,Bihar,26.08999,85.42245
+943,Shahpur,Musahri (Turki),Muzaffarpur,Bihar,26.15085,85.4212
+944,Sherpur,Musahri (Turki),Muzaffarpur,Bihar,26.10467,85.38062
+945,Sherpur urf Narayanpur Anant,Musahri (Turki),Muzaffarpur,Bihar,26.11137,85.44233
+946,Susta,Musahri (Turki),Muzaffarpur,Bihar,26.14846,85.39182
+947,Sutihara,Musahri (Turki),Muzaffarpur,Bihar,26.08642,85.40413
+948,Sutihara Aima,Musahri (Turki),Muzaffarpur,Bihar,26.14098,85.43726
+949,Turki Chowk,Musahri (Turki),Muzaffarpur,Bihar,26.12297,85.37543
+950,Turki Bazar,Musahri (Turki),Muzaffarpur,Bihar,26.11632,85.41338
+951,Yehiapur,Musahri (Turki),Muzaffarpur,Bihar,26.12924,85.40998
+952,Zoraha Musahri,Musahri (Turki),Muzaffarpur,Bihar,26.11187,85.40258
+953,Muzaffarpur City (Sadar),Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.1211,85.3723
+954,Mithanpura,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.12818,85.34928
+955,Brahmpura,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.10574,85.36255
+956,Ramna,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.133,85.36824
+957,Juran Chapra,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.11576,85.34434
+958,Aghoria Bazar,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.11219,85.3751
+959,Bhelahi Chowk,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.13664,85.35389
+960,Lanka Chowk,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.10296,85.35301
+961,Saraiyaganj,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.12812,85.37726
+962,Motijheel,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.12586,85.34119
+963,Kalyani Chowk,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.10246,85.37021
+964,Malahi Pakri,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.1404,85.36444
+965,Station Road,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.10764,85.34249
+966,Akhara Ghat,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.11722,85.38179
+967,Sutiapatti,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.13717,85.34547
+968,Budhanpura,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.09702,85.35909
+969,Sadatpur,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.13669,85.37654
+970,Khanjarpur,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.11885,85.33605
+971,Narayanpur Sadar,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.10438,85.3788
+972,Muradpur,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.14467,85.35663
+973,Chatri,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.09917,85.34556
+974,Bhagwanpur Sadar,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.12571,85.38514
+975,Kishunpur Sadar,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.13299,85.33723
+976,Harpur Sadar,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.09464,85.36815
+977,Dumra Sadar,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.14457,85.37129
+978,Gopalpur Sadar,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.10935,85.3347
+979,Dhanauti Sadar,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.11063,85.38622
+980,Simra Sadar,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.14497,85.34681
+981,Vishunpur Sadar,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.09231,85.35276
+982,Jainagar,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.13573,85.38436
+983,Koilha Sadar,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.12492,85.33104
+984,Sultanpur Sadar,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.09652,85.37826
+985,Parsauni Sadar,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.15,85.36242
+986,Tilak Sadar,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.09927,85.33769
+987,Sonapur Sadar,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.12021,85.39081
+988,Laxmipur Sadar,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.14088,85.33688
+989,Maripur,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.08865,85.36297
+990,Kurhani Chowk,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.1454,85.37919
+991,Bairiya,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.11418,85.32837
+992,Balua Ghat,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.10275,85.38754
+993,Jubian Chowk,Muzaffarpur Sadar (Main Chowk),Muzaffarpur,Bihar,26.15164,85.35126
